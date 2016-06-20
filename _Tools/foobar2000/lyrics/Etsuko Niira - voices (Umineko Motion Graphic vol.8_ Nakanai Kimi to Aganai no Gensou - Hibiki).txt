@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="973919" artist="Sidsel Endresen,Bugge Wesseltoft" title="Voices"></lrc>
+	<lrc id="818196" artist="Bee Gees" title="Voices (Album Version)"></lrc>
+	<lrc id="598646" artist="太空堡壘op" title="voices"></lrc>
+	<lrc id="1358781" artist="Timothy B. Schmit" title="Voices"></lrc>
+	<lrc id="749678" artist="アンド" title="Voices"></lrc>
+	<lrc id="33650" artist="Bee Gees" title="voices"></lrc>
+	<lrc id="416932" artist="アンド" title="Voices"></lrc>
+	<lrc id="1470588" artist="Penelope Houston" title="Voices"></lrc>
+	<lrc id="517537" artist="Beseech" title="Voices"></lrc>
+	<lrc id="352698" artist="Ryan Adams" title="Voices"></lrc>
+</result>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="245657" artist="Misty Eyes" title="Mind Education"></lrc>
+</result>

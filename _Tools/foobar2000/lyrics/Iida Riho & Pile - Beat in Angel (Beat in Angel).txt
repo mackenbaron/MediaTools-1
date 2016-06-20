@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="254902" artist="星空凛(CV.飯田里穂)&amp;西木野真姫(CV.Pile)" title="Beat in Angel"></lrc>
+</result>

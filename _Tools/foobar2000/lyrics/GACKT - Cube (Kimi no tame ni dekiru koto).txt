@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="450097" artist="Gackt" title="Cube(Live Version)"></lrc>
+	<lrc id="1431373" artist="Gackt" title="Cube (DRUG 1 Ver.)"></lrc>
+	<lrc id="845850" artist="Gackt" title="Cube"></lrc>
+	<lrc id="427267" artist="Gackt" title="Cube"></lrc>
+</result>

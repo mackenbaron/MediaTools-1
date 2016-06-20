@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1348599" artist="藤村歩 豊崎愛生 茅原実里 平野綾 日笠陽子[中日对照]" title="Passionate squall"></lrc>
+	<lrc id="701649" artist="藤村歩&amp;豊崎愛生&amp;茅原実里&amp;平野綾&amp;日笠陽子" title="Passionate squall"></lrc>
+	<lrc id="1317699" artist="日本ACG" title="Passionate squall"></lrc>
+</result>

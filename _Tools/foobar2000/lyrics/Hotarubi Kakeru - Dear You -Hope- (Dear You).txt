@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="878089" artist="蛍灯翔(中日版)" title="Dear You -Hope-"></lrc>
+	<lrc id="469354" artist="蛍灯,翔" title="Dear you -Hope-"></lrc>
+	<lrc id="916045" artist=" 蛍灯翔" title="Dear You -Hope-"></lrc>
+</result>

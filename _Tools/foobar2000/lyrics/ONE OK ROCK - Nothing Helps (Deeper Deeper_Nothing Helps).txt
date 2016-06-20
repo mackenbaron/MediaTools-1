@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1434228" artist="ONE OK ROCK" title="Nothing Helps"></lrc>
+	<lrc id="1301498" artist="ONE OK ROCK" title="07 Nothing Helps"></lrc>
+	<lrc id="1173856" artist="ONE OK ROCK" title="Nothing Helps"></lrc>
+	<lrc id="284304" artist="ONE OK ROCK" title="Nothing Helps"></lrc>
+</result>

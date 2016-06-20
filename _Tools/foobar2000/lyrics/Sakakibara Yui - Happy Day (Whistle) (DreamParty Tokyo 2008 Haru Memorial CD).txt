@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1537935" artist="火星人" title="Happy Day"></lrc>
+	<lrc id="612613" artist="Talking Heads" title="Happy Day"></lrc>
+	<lrc id="1081633" artist="约书亚乐团" title="Happy Day"></lrc>
+	<lrc id="961650" artist="Bluegrass Worship Band" title="Happy Day"></lrc>
+	<lrc id="1433752" artist="V2" title="Happy Day"></lrc>
+	<lrc id="554460" artist="V2" title="Happy Day"></lrc>
+	<lrc id="939711" artist="紫雨林" title="HAPPY DAY"></lrc>
+	<lrc id="452186" artist="宇珩" title="Happy Day"></lrc>
+	<lrc id="1569368" artist="Talking Heads" title="Happy Day (2005 Remastered Album Version )"></lrc>
+	<lrc id="1665511" artist="Jack Radics" title="Happy Day"></lrc>
+</result>

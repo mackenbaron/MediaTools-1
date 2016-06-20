@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1268757" artist="Abingdon Boys School" title="INNOCENT SORROW"></lrc>
+	<lrc id="883679" artist="(日文完整)abingdon boys school" title="INNOCENT SORROW"></lrc>
+	<lrc id="615668" artist="abingdon boys school[中日对照]" title="INNOCENT SORROW"></lrc>
+	<lrc id="1519877" artist="abingdon boys school" title="INNOCENT SORROW"></lrc>
+</result>

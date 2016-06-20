@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="789705" artist="Changin&apos; My Life" title="ETERNAL SNOW"></lrc>
+	<lrc id="584422" artist="Changin My Life" title="ETERNAL SNOW"></lrc>
+	<lrc id="357354" artist="Changin\&apos; My Life" title="ETERNAL SNOW(中文翻译)"></lrc>
+</result>

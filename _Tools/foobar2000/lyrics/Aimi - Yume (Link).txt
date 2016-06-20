@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1622836" artist="SEKAI NO OWARI" title="yume"></lrc>
+	<lrc id="966341" artist="世界の終わり" title="yume"></lrc>
+	<lrc id="1242813" artist="FTISLAND" title="yume"></lrc>
+	<lrc id="458826" artist="FTISLAND" title="yume"></lrc>
+	<lrc id="1462002" artist="Tales Of Destiny" title="Yume De Aru Youni"></lrc>
+	<lrc id="512615" artist="Deen" title="Yume_dearu_youni"></lrc>
+	<lrc id="1178165" artist="Base Ball Bear" title="YUME is VISION"></lrc>
+	<lrc id="642434" artist="Various Artists" title="Yumeji&apos;s Theme"></lrc>
+	<lrc id="79436" artist="ORANGE RANGE" title="yumekaze"></lrc>
+	<lrc id="295367" artist="Orange Range" title="yumekaze"></lrc>
+</result>

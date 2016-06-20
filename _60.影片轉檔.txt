@@ -1,0 +1,2 @@
+#轉檔之後的類型(mp4,avi,wmv,mov,mpg,3gp,mkv,flv)
+mp4

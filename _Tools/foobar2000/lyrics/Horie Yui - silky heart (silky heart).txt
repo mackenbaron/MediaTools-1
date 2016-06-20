@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="629845" artist="堀江由衣[动新中日版]" title="silky heart"></lrc>
+	<lrc id="831456" artist="堀江由衣" title="silky heart (off vocal ver.)"></lrc>
+	<lrc id="1550223" artist="堀江由衣" title="silky heart"></lrc>
+	<lrc id="833495" artist="堀江由衣[含假名]" title="silky heart"></lrc>
+	<lrc id="1569839" artist="堀江由衣(日)" title="silky heart"></lrc>
+	<lrc id="428637" artist="堀江由衣[中日对照]" title="silky heart"></lrc>
+	<lrc id="771683" artist="堀江由衣" title="Silky Heart"></lrc>
+	<lrc id="378677" artist="堀江由衣" title="silky heart"></lrc>
+</result>

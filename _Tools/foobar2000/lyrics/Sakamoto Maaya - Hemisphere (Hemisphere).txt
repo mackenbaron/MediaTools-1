@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="601921" artist="16 Down" title="Hemisphere"></lrc>
+	<lrc id="627097" artist="坂本真绫" title="Hemisphere"></lrc>
+</result>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="325177" artist="the generous[中日对照]" title="Dream Star"></lrc>
+	<lrc id="475980" artist="the generous" title="Dream Star"></lrc>
+	<lrc id="1012669" artist="The Generous" title="Dream Star"></lrc>
+	<lrc id="1096925" artist="The Generous" title="Dream Star"></lrc>
+	<lrc id="721635" artist="the generous(English ver)" title="Dream Star"></lrc>
+</result>

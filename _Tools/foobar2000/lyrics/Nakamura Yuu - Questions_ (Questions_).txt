@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1050788" artist="Stand" title="Questions"></lrc>
+	<lrc id="1448314" artist="Mike Scott" title="Questions"></lrc>
+	<lrc id="1563501" artist="Made of Hate" title="Questions"></lrc>
+	<lrc id="1534919" artist="Eminem" title="21 Questions"></lrc>
+	<lrc id="477321" artist="Harris,Moran,Osby,Shim" title="20 Questions"></lrc>
+	<lrc id="136725" artist="Chicago" title="Questions"></lrc>
+	<lrc id="197498" artist="Audio Two" title="Questions (Lp Version)"></lrc>
+	<lrc id="757342" artist="Peace 586" title="Questions"></lrc>
+	<lrc id="441570" artist="New Directions" title="20 Questions"></lrc>
+	<lrc id="1642118" artist="MEG" title="QUESTIONS"></lrc>
+</result>

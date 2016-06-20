@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1371732" artist="KAT-TUN" title="Freedom"></lrc>
+	<lrc id="188383" artist="Akon" title="Freedom"></lrc>
+	<lrc id="28424" artist="KAT-TUN" title="FREEDOM"></lrc>
+	<lrc id="1598120" artist="Akon[中英对照]" title="Freedom"></lrc>
+	<lrc id="1664944" artist="Clipse" title="Freedom"></lrc>
+	<lrc id="1272768" artist="Def Tech" title="Freedom"></lrc>
+	<lrc id="1332148" artist="The Katinas" title="Freedom"></lrc>
+	<lrc id="674406" artist="Lisa" title="Freedom"></lrc>
+	<lrc id="241918" artist="Racoon" title="Freedom"></lrc>
+	<lrc id="477011" artist="Globe" title="Freedom (Tv Mix)"></lrc>
+</result>

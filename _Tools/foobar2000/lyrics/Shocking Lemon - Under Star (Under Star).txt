@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1010677" artist="Shocking Lemon" title="Under star"></lrc>
+</result>

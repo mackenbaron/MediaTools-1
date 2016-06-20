@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1361153" artist="4Minute" title="I My Me Mine (Japanese Version)"></lrc>
+	<lrc id="652357" artist="4MINUTE (中韓對照)" title="I My Me Mine"></lrc>
+	<lrc id="829191" artist="4minute" title="I My Me Mine (Japanese Ver.)"></lrc>
+	<lrc id="737930" artist="4MINUTE" title="I My Me Mine (Japanese Ver.)"></lrc>
+</result>

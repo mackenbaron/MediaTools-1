@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="89302" artist="林原惠美" title="raging waves"></lrc>
+	<lrc id="1372473" artist="林原惠美" title="raging waves"></lrc>
+	<lrc id="1002242" artist="林原惠" title="raging waves"></lrc>
+</result>

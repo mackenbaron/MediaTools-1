@@ -1,0 +1,30 @@
+ 
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+Collisions: Normal
+Video Zoom Percent: 0.375
+Scroll Position: 95
+Active Line: 103
+PlayResX: 848
+PlayResY: 480
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+#格式設定
+#Style:自定義名稱,字型名稱,字型大小,主色,次色,外框色,背景色,粗體,斜體,底線, 刪除線, ScaleX, ScaleY, 字元間距, 旋轉角度, 邊框陰影設定, 邊框, 陰影, 字幕位置, 左邊界距離, 右邊界距離, 垂直邊界距離, 文字編碼
+#文字色彩格式為&HAABBGGRR(alpha、藍、綠、紅）
+#粗體、斜體、底線、刪除線：0不使用/ -1使用
+#邊框、陰影通常為1～5必須要邊框陰影設定（BorderStyle）設為1時才有效
+#字幕位置與小鍵盤數字對應的位置相同，如1↙、2↓、3↘、4←、6→、7↖、8↑、9↗
+#Logo（左上角文字設定）
+Style: Logo,SimHei,32,&H00801030,&H000000FF,&H00F2F2FC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,10,10,10,1
+#檔名（右下角文字設定）
+Style: Default,Comic Sans MS,28,&H000090d0,&H000000FF,&H00F2F2FC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,10,10,10,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+#Logo文字
+Dialogue: 0,0:0:0.0,1:0:0.0,Logo,,0,0,0,,多圖合音測試
+#這個檔案的編碼必須是BIG5

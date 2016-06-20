@@ -1,0 +1,1 @@
+wget -O c:\test.htm --post-data "username=guest&password=123456&islogin=yes" http://140.128.77.195/default.asp

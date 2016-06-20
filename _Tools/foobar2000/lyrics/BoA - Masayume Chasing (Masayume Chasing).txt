@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1084689" artist="BOA" title="MASAYUME CHASING"></lrc>
+</result>

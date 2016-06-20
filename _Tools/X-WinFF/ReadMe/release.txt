@@ -1,0 +1,17 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2014 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+=====================================================================
+X-WinFF 1.5.3 [rev 6]
+Original software Author: Matthew Weatherford
+Original software Home: http://code.google.com/p/winff/
+Original software license: GNU General Public License
+X-Software (portable) released on: 31/01/2014
+=====================================================================

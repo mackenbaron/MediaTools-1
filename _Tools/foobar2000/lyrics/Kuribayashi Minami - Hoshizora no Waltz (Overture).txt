@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="249152" artist="Kuribayashi Minami" title="Hoshizora no Waltz"></lrc>
+</result>

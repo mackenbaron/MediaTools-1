@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1312979" artist="Christopher Plummer" title="No Thank You"></lrc>
+	<lrc id="622863" artist="放課後ティ タイム[中日对照]" title="NO,Thank You!"></lrc>
+	<lrc id="431982" artist="动漫原声" title="NO,Thank You!"></lrc>
+	<lrc id="658301" artist="放课後ティータイム" title="NO, Thank You!"></lrc>
+	<lrc id="391922" artist="放課後ティータイム" title="NO, Thank You!"></lrc>
+	<lrc id="1575333" artist="放課後ティータイム [中日+假名]" title="NO,Thank You!"></lrc>
+	<lrc id="793064" artist="放课後ティータイム" title="NO, Thank You!"></lrc>
+	<lrc id="289002" artist="放課後ティ タイム[平仮名付き]" title="NO, Thank You!"></lrc>
+	<lrc id="1509216" artist="放課後ティ タイム" title="NO, Thank You!"></lrc>
+</result>

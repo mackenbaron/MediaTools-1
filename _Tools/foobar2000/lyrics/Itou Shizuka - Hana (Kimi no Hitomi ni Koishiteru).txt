@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1691168" artist="???" title="Hana(Dub S Trance Remix)"></lrc>
+	<lrc id="274794" artist="mimi-K" title="HANA"></lrc>
+	<lrc id="543945" artist="滨崎步" title="Hana"></lrc>
+	<lrc id="1060437" artist="mimi-K" title="HANA (mimi-K Solo Version)"></lrc>
+	<lrc id="1128056" artist="滨崎步" title="Hana(D-Z Deadly Rose Approach)"></lrc>
+	<lrc id="1135461" artist="Tarika" title="Hana"></lrc>
+	<lrc id="900863" artist="orange range" title="hana"></lrc>
+	<lrc id="1625445" artist="???" title="Hana (Acoustic Orchestra Mix)"></lrc>
+	<lrc id="638901" artist="滨崎步" title="Hana(Dub S Trance Remix)"></lrc>
+	<lrc id="726523" artist="???" title="Hana(D-Z Deadly Rose Approach)"></lrc>
+</result>

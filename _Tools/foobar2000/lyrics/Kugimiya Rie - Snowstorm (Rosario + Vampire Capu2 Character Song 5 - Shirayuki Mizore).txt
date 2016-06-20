@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="771292" artist="Elonkorjuu" title="Snowstorm (Live)"></lrc>
+	<lrc id="976158" artist="白雪みぞれ(釘宮理恵)" title="snowstorm"></lrc>
+</result>

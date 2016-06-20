@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1562361" artist="fripSide[含假名]" title="way to answer"></lrc>
+	<lrc id="11435" artist="fripSide" title="way to answer[中日版]"></lrc>
+	<lrc id="1489030" artist="fripSide" title="way to answer"></lrc>
+	<lrc id="1338001" artist="fripSide" title="way to answer "></lrc>
+	<lrc id="808345" artist="fripSide" title="way to answer"></lrc>
+	<lrc id="879310" artist="fripSide" title="way to answer[中日對照]"></lrc>
+	<lrc id="1211180" artist="Fripside" title="way to answer"></lrc>
+</result>

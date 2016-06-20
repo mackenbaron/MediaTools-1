@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1070017" artist="GACKT" title="Graffiti"></lrc>
+	<lrc id="624693" artist="GACKT" title="Graffiti(instrumental)"></lrc>
+	<lrc id="1303880" artist="GACKT[中日对照]" title="Graffiti"></lrc>
+</result>

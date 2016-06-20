@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <win32 ffmpeg="D:\MediaTools\_Tools\X-WinFF\Bin\Winff\ffmpeg.exe" ffplay="D:\MediaTools\_Tools\X-WinFF\Bin\Winff\ffplay.exe" chcp="true"/>
+  <general rememberlast="false" pause="true" destfolder="D:\MediaTools\_Tools\X-WinFF\Documents\Winff Output" multithreading="false" showoptions="true" pass2="false" addfilesfolder="D:\MediaTools\_Tools\X-WinFF\Documents\Winff Output\" currentpreset="" displaycmdline="false" playsound="true"/>
+  <window height="401" width="640" top="339" left="640"/>
+</CONFIG>

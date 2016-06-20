@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1015728" artist="Alan Rickman" title="Intelligence"></lrc>
+	<lrc id="1467455" artist="Alan Rickman" title="Intelligence"></lrc>
+	<lrc id="642820" artist="...And You Will Know Us By The Trail Of Dead" title="Intelligence"></lrc>
+	<lrc id="1524684" artist="Soul II Soul" title="Intelligence"></lrc>
+</result>

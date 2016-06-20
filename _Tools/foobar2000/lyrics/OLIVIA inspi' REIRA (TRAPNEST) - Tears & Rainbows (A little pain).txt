@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="768603" artist="OLIVIA inspi&apos; REIRA" title="tears &amp; rainbows"></lrc>
+	<lrc id="1215538" artist="OLIVIA inspi&apos; REIRA (TRAPNEST)" title="tears &amp; rainbows"></lrc>
+</result>

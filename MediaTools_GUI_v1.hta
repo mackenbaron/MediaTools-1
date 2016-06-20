@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="zh-tw">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content="text/html; charset=big5" http-equiv="Content-Type" />
+<meta name="author" content="Peter JU" />
+<title>簡易多媒體工具</title>
+<HTA:APPLICATION ID="ccHta"
+  APPLICATIONNAME="ccDBrestore"  
+  VERSION="0.1"
+  MAXIMIZEBUTTON="no"
+  ICON="dxdiag.exe"
+  NAVIGABLE="yes"
+/>
+<link rel="stylesheet" href="./_js/css/jquery-ui.min.css" />
+<link href="./_js/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+body {
+	background-color: rgb(212,208,200); /*背景色設定*/
+	font-size:1.1em;
+	font-family:"Arial";
+}
+h4 {
+	margin-top:5px;
+	 margin-bottom: 2px;
+	 margin-left: 15px;
+}
+table { 
+	margin: auto;
+	width:100%;
+	border:0;
+} 
+td { padding: 3px;}
+input[type="text"] {width: 98%;}
+select {width: 98%;}
+.exec {
+	font-size: 1em;
+	border: 2px solid #333;
+	border-radius: 25px;
+	width: auto;
+	height: 40px;
+}
+.circleborder{
+	margin: auto;
+	width:94%;
+	/* border:1px solid #0066cc; padding:5px; */
+	border:1px ridge #666; padding:10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+<h4>Step 1：選取影音檔</h4>
+<div class="circleborder">
+<table> 
+ <tr> 
+   <td colspan="2"><input id="fileLoc_txt" type="text" /></td> 
+   <td width="70"><button id="openFile_btn"><i class="fa fa-folder-open-o"></i>&nbsp;開啟&nbsp;</button></td> 
+ </tr> 
+</table> 
+</div>
+<h4>Step 2：點選欲處理的項目並設定參數</h4>
+<div class="circleborder">
+<table id="items">  
+ <tr> 
+   <td><input name="action" type="radio" value="10" />youtube影片下載</td>
+   <td width="70"><button id="setYouTube" title="_10.youtube影片下載"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr> 
+ <tr>
+   <td><input name="action" type="radio" value="20" />擷取有聲影片</td>
+   <td width="70"><button id="setSoundVideo" title="_20.擷取有聲影片"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr> 
+ <tr>
+   <td><input name="action" type="radio" value="21" />擷取無聲影片</td>
+   <td width="70"><button id="setSilentVideo" title="_21.擷取無聲影片"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="23" />擷取影像為JPG</td>
+   <td width="70"><button id="setSilentVideo" title="_23.擷取影像為JPG"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="24" />擷取聲音為MP3</td>
+   <td width="70"><button id="setSilentVideo" title="_24.擷取聲音為MP3"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="30" />影片多段分割</td>
+   <td width="70"><button id="setSilentVideo" title="_30.影片多段分割"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="31" />影片合併</td>
+   <td width="70"><button id="setSilentVideo" title="_31.影片合併"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="40" />影片旋轉90度</td>
+   <td width="70"><button id="setSilentVideo" title="_40.影片旋轉90度"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="50" />影片解析度變更</td>
+   <td width="70"><button id="setSilentVideo" title="_50.影片解析度變更"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="60" />影片轉檔</td>
+   <td width="70"><button id="setSilentVideo" title="_60.影片轉檔"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+ <tr>
+   <td><input name="action" type="radio" value="70" />影片燒錄或轉ISO檔</td>
+   <td width="70"><button id="setSilentVideo" title="_70.影片燒錄或轉ISO檔"><i class="fa fa-file-text"></i>&nbsp;設定&nbsp;</button></td>
+ </tr>
+</table> 
+</div>
+<table> 
+ <tr> 
+   <td><button id="help_btn" class="exec"><i class="fa fa-book"></i>&nbsp;&nbsp;說明&nbsp;&nbsp;&nbsp;</button></td>
+   <td>&nbsp;</td>
+   <td><button id="exec_btn" class="exec"><i class="fa fa-refresh fa-spin"></i>&nbsp;&nbsp;執行&nbsp;&nbsp;&nbsp;</button></td>
+ </tr> 
+ <tr> 
+   <td><button id="output_btn" class="exec"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;輸出資料夾&nbsp;&nbsp;&nbsp;</button></td>
+   <td>&nbsp;</td>
+   <td><button id="exit_btn" class="exec"><i class="fa fa-coffee"></i>&nbsp;&nbsp;離開&nbsp;&nbsp;&nbsp;</button></td>
+ </tr> 
+</table> 
+<div id="dialog" style="display:none"></div>
+</body>
+
+<script src="./_js/jquery.min.js"></script> 
+<script src="./_js/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+var oShell = new ActiveXObject("WScript.Shell");
+var apPath = oShell.CurrentDirectory;											// 取得目前的程式路徑
+var apTitle = document.title;													// 程式的抬頭，用於h1標籤與對話框標題
+	
+$(document).ready(function (e) {
+	
+	// 網頁載入後先調整網頁長寬
+	var w = 500;																// 程式寬度
+	var h = 660;																// 程式高度	
+	window.resizeTo(w, h); // 調整網頁長寬
+	window.moveTo((screen.width - w) / 2, (screen.height - h) / 2); 			// 將網頁放置於螢幕中間
+
+	// 定義按鈕 "開啟" onclick 後的動作
+	$("#openFile_btn").on('click', function () {		
+		var objDialog;
+		try {
+			objDialog = new ActiveXObject("MSComDlg.CommonDialog");
+		} catch (err) {												//呼叫失敗代表未註冊
+			oShell.Run("regsvr32.exe /s _Tools\\DLL\\COMDLG32.ocx");	//註冊 OMDLG32.ocx
+			pauseMS(500);
+		}
+		objDialog = new ActiveXObject("MSComDlg.CommonDialog");
+        objDialog.MaxFileSize = 256;
+		objDialog.Filter = "All files|*.*";
+		objDialog.InitDir = apPath;
+		objDialog.ShowOpen();
+		$("#fileLoc_txt").val(objDialog.FileName);
+		$('#fileLoc_txt').prop('title', objDialog.FileName);	//jQuery 1.6版以前語法 $('#fileLoc_txt').attr('title', objDialog.FileName);
+	});
+	
+	// 定義按鈕 "執行" onclick 後的動作
+	$("#exec_btn").on('click', function () {
+		var method=$("input[name='action']:checked").val();		//radio 取值，注意寫法
+		if( typeof(method) == 'undefined' ){ 					// 注意檢查完全沒有選取的寫法，這行是精華
+			Info(apTitle, "未選擇欲處理的項目");
+			return false;
+		}
+		if( method != 10 && method != 31 ){						//youtube影片下載與影片合併 可以不用選擇影音檔
+			if ( $("#fileLoc_txt").val()=='' ) {		
+				Info(apTitle, "未指定影音檔，本工具將針對同目錄下所有媒體檔進行處理");
+			}
+		}
+		var target='\"'+apPath+'\\'+$("input[name='action']:checked").parent().next().find('button').prop('title') + '.cmd\" \"'+ $("#fileLoc_txt").val()+'\"' ;
+		callShellApplication(target);
+	});
+	
+	// 定義 "Step 2：選擇欲處理的項目" 之下所有按鈕 onclick 後呼叫的函數	
+	$("#items button").on('click', function () {
+		callShellApplication('notepad ' + '\"'+apPath+'\\'+this.title + '.txt\"');
+	});
+	
+	// 定義按鈕 "說明" onclick 後的動作
+	$("#help_btn").on('click', function () {
+		callShellApplication('notepad ' + '\"'+apPath+'\\_readme.txt\"');
+	});
+	
+	// 定義按鈕 "輸出資料夾" onclick 後的動作
+	$("#output_btn").on('click', function () {
+		callShellApplication('explorer ' + '\"'+apPath+'\\#Output\"');
+	});
+	
+	// 定義按鈕 "離開" onclick 後的動作
+	$("#exit_btn").on('click', function () {
+		window.close();
+	});
+
+	
+});
+
+function callShellApplication(sApp) {
+	// 執行傳遞進來的程式
+	//alert(sApp);
+	var WshShell;
+	try {
+		WshShell = new ActiveXObject("WScript.Shell");
+		WshShell.Run(sApp);
+	} catch (err) {
+		var text = "執行發生錯誤<br />";
+		text += "錯誤訊息: " + err.message ;
+		Info(apTitle, text);
+	}
+	WshShell = null;
+}
+
+function Info(sTitle, sInfo) {
+	// 使用 jQuery UI的對話框來顯示資訊
+	$('#dialog').html(sInfo);
+	//$('#dialog').css({display:'inline'});
+	$("#dialog").dialog({
+		title : sTitle,
+		bgiframe : true,
+		modal : true,
+		show : "blind",
+		hide : "explode",
+		//width: 400,
+		//height: 350,
+		//draggable: true,
+		resizable : false,
+		overlay : {
+			opacity : 0.7,
+			background : "#FF8899"
+		},
+		buttons : {
+			'關閉' : function () {
+				$(this).dialog('close');
+			}
+		}
+	});
+}
+
+function pauseMS(ms) {
+	// 指定暫停的毫秒
+	ms += new Date().getTime();
+	while (new Date() < ms) {}
+}
+</script>
+
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="1268220" artist="小倉唯(中日对照)" title="Baby Sweet Berry Love"></lrc>
+	<lrc id="34183" artist="小倉唯" title="Baby Sweet Berry Love"></lrc>
+	<lrc id="41529" artist="小仓唯" title="Baby Sweet Berry Love"></lrc>
+	<lrc id="116751" artist="小倉唯" title="Baby Sweet Berry Love"></lrc>
+	<lrc id="246418" artist="小仓唯[中日对照]" title=" Baby Sweet Berry Love"></lrc>
+	<lrc id="1122851" artist="小仓唯[中日对照]" title="Baby Sweet Berry Love"></lrc>
+	<lrc id="1525511" artist="小倉唯[含假名]" title="Baby Sweet Berry Love"></lrc>
+	<lrc id="326733" artist="小倉唯" title="Baby Sweet Berry Love (off vocal ver.)"></lrc>
+</result>

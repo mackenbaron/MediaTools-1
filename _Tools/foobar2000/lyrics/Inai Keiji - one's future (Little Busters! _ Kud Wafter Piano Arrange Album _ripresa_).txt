@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="665128" artist="铃田美夜子" title="one&apos;s future"></lrc>
+	<lrc id="125843" artist="鈴田美夜子" title="one&apos;s future"></lrc>
+</result>

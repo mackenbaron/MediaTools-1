@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+	<lrc id="289716" artist="30 Seconds to Mars" title="Escape"></lrc>
+	<lrc id="577767" artist="Various Artists" title="Escape (Original Mix)"></lrc>
+	<lrc id="871119" artist="Pete Rock &amp; C.L. Smooth" title="Escape (Lp Version)"></lrc>
+	<lrc id="483433" artist="reset" title="Escape"></lrc>
+	<lrc id="1361100" artist="Home Junior" title="Escape"></lrc>
+	<lrc id="1211891" artist="Sweet Vacation" title="Escape!!"></lrc>
+	<lrc id="1563095" artist="米希亚" title="Escape"></lrc>
+	<lrc id="1242349" artist="Larry Groupe" title="Escape"></lrc>
+	<lrc id="1306621" artist="米希亚" title="Escape"></lrc>
+	<lrc id="1263016" artist="SKE48" title="Escape (SKE48)"></lrc>
+</result>
