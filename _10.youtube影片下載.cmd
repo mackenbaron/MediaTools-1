@@ -1,7 +1,7 @@
 ::: 抓取 Youtube 影片檔工具 by Peter JU
 :::		2015/03/22 Last Modify
 ::: 注意事項
-::: 	1.會利用到 .\Tools\ffmpeg\youtube-dl 工具程式
+::: 	1.會利用到 .\Tools\youtube-dl\youtube-dl 工具程式
 ::: 	2.會利用到 .\Tools\ffmpeg\ffmpeg 工具程式
 ::: 	3.會利用到 .\Tools\wbin\date 工具程式
 :::	http://rg3.github.io/youtube-dl/
@@ -28,7 +28,7 @@ forfiles /m *.log /d -7 /c "cmd /c del @path" 2> nul
 
 SETLOCAL ENABLEDELAYEDEXPANSION
 %YU% -a %cfgFile% -F
-%YU% -a %cfgFile% --default-search "140,147" -k --output "%out%\%%(title)s.mp4" --ffmpeg-location %FF%
+%YU% -a %cfgFile% -k --output "%out%\%%(title)s.mp4" --ffmpeg-location %FF%
 rem %YU% -a %cfgFile% -o "%out%\%%(title)s.mp4" FORMAT --ffmpeg-location %FF% --no-playlist
 
 pause

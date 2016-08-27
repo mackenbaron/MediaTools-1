@@ -46,7 +46,7 @@ rem for %%i in ("%video%") DO set ExtName=%%~xi
 
 for /f %%h in ('%DT% "+%%H%%M%%S"') do set runtime=%%h
 set FFREPORT=file='%log%\!today!-!runtime!-%~n1.log':level=32
-%FF% -y -i "%video%" -i "%audio%" -c:v copy -c:a aac -strict experimental "%out%\%video%" -report
+%FF% -y -i "%video%" -i "%audio%" -c:v copy -c:a aac -ar 44100 -strict experimental "%out%\%video%" -report
 
 rem %FF% -y -i "%video%" -i "%audio%" -c:v copy -c:a aac -strict experimental -map 0:v:0 -map 1:a:0 "%out%\%video%" -report
 
