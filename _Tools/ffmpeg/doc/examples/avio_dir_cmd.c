@@ -41,6 +41,12 @@ static const char *type_string(int type)
         return "<LINK>";
     case AVIO_ENTRY_SOCKET:
         return "<SOCKET>";
+    case AVIO_ENTRY_SERVER:
+        return "<SERVER>";
+    case AVIO_ENTRY_SHARE:
+        return "<SHARE>";
+    case AVIO_ENTRY_WORKGROUP:
+        return "<WORKGROUP>";
     case AVIO_ENTRY_UNKNOWN:
     default:
         break;
@@ -48,37 +54,23 @@ static const char *type_string(int type)
     return "<UNKNOWN>";
 }
 
-int main(int argc, char *argv[])
+static int list_op(const char *input_dir)
 {
-    const char *input_dir = NULL;
     AVIODirEntry *entry = NULL;
     AVIODirContext *ctx = NULL;
     int cnt, ret;
     char filemode[4], uid_and_gid[20];
 
-    av_log_set_level(AV_LOG_DEBUG);
-
-    if (argc != 2) {
-        fprintf(stderr, "usage: %s input_dir\n"
-                "API example program to show how to list files in directory "
-                "accessed through AVIOContext.\n", argv[0]);
-        return 1;
-    }
-    input_dir = argv[1];
-
-    /* register codecs and formats and other lavf/lavc components*/
-    av_register_all();
-
     if ((ret = avio_open_dir(&ctx, input_dir, NULL)) < 0) {
         av_log(NULL, AV_LOG_ERROR, "Cannot open directory: %s.\n", av_err2str(ret));
-        return 1;
+        goto fail;
     }
 
     cnt = 0;
     for (;;) {
         if ((ret = avio_read_dir(ctx, &entry)) < 0) {
             av_log(NULL, AV_LOG_ERROR, "Cannot list directory: %s.\n", av_err2str(ret));
-            return 1;
+            goto fail;
         }
         if (!entry)
             break;
@@ -105,7 +97,84 @@ int main(int argc, char *argv[])
         cnt++;
     };
 
+  fail:
     avio_close_dir(&ctx);
+    return ret;
+}
 
-    return 0;
+static int del_op(const char *url)
+{
+    int ret = avpriv_io_delete(url);
+    if (ret < 0)
+        av_log(NULL, AV_LOG_ERROR, "Cannot delete '%s': %s.\n", url, av_err2str(ret));
+    return ret;
+}
+
+static int move_op(const char *src, const char *dst)
+{
+    int ret = avpriv_io_move(src, dst);
+    if (ret < 0)
+        av_log(NULL, AV_LOG_ERROR, "Cannot move '%s' into '%s': %s.\n", src, dst, av_err2str(ret));
+    return ret;
+}
+
+
+static void usage(const char *program_name)
+{
+    fprintf(stderr, "usage: %s OPERATION entry1 [entry2]\n"
+            "API example program to show how to manipulate resources "
+            "accessed through AVIOContext.\n"
+            "OPERATIONS:\n"
+            "list      list content of the directory\n"
+            "move      rename content in directory\n"
+            "del       delete content in directory\n",
+            program_name);
+}
+
+int main(int argc, char *argv[])
+{
+    const char *op = NULL;
+    int ret;
+
+    av_log_set_level(AV_LOG_DEBUG);
+
+    if (argc < 2) {
+        usage(argv[0]);
+        return 1;
+    }
+
+    /* register codecs and formats and other lavf/lavc components*/
+    av_register_all();
+    avformat_network_init();
+
+    op = argv[1];
+    if (strcmp(op, "list") == 0) {
+        if (argc < 3) {
+            av_log(NULL, AV_LOG_INFO, "Missing argument for list operation.\n");
+            ret = AVERROR(EINVAL);
+        } else {
+            ret = list_op(argv[2]);
+        }
+    } else if (strcmp(op, "del") == 0) {
+        if (argc < 3) {
+            av_log(NULL, AV_LOG_INFO, "Missing argument for del operation.\n");
+            ret = AVERROR(EINVAL);
+        } else {
+            ret = del_op(argv[2]);
+        }
+    } else if (strcmp(op, "move") == 0) {
+        if (argc < 4) {
+            av_log(NULL, AV_LOG_INFO, "Missing argument for move operation.\n");
+            ret = AVERROR(EINVAL);
+        } else {
+            ret = move_op(argv[2], argv[3]);
+        }
+    } else {
+        av_log(NULL, AV_LOG_INFO, "Invalid operation %s\n", op);
+        ret = AVERROR(EINVAL);
+    }
+
+    avformat_network_deinit();
+
+    return ret < 0 ? 1 : 0;
 }

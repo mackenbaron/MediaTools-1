@@ -17,6 +17,7 @@ set today=%date:~0,4%%date:~5,2%%date:~8,2%
 for /f %%h in ('%DT% "+%%H%%M%%S"') do set runtime=%%h
 if not exist _Log\nul md _Log
 set logfile=_Log\%today%-%runtime%-youtubeDL.log
+::建立檔案下載後儲存目錄
 if not exist #Output\nul md #Output
 set out=#Output
 ::讀取參數的檔案
@@ -27,8 +28,9 @@ forfiles /p %log% /m *.log /d -7 /c "cmd /c del @path" 2> nul
 forfiles /m *.log /d -7 /c "cmd /c del @path" 2> nul
 
 SETLOCAL ENABLEDELAYEDEXPANSION
-%YU% -a %cfgFile% -F
-%YU% -a %cfgFile% -k --output "%out%\%%(title)s.mp4" --ffmpeg-location %FF%
+rem %YU% -a %cfgFile% -k -F
+echo Downloading from youtube, Please wait...
+%YU% -a %cfgFile% --output "%out%\%%(title)s.mp4" --ffmpeg-location %FF%> %logfile%
 rem %YU% -a %cfgFile% -o "%out%\%%(title)s.mp4" FORMAT --ffmpeg-location %FF% --no-playlist
 
-pause
+timeout 6
