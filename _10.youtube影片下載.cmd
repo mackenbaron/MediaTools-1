@@ -30,7 +30,8 @@ forfiles /m *.log /d -7 /c "cmd /c del @path" 2> nul
 SETLOCAL ENABLEDELAYEDEXPANSION
 rem %YU% -a %cfgFile% -k -F
 echo Downloading from youtube, Please wait...
-%YU% -a %cfgFile% --output "%out%\%%(title)s.mp4" --ffmpeg-location %FF%> %logfile%
+%YU% -a %cfgFile% -o "%out%\%%(title)s.%%(ext)s"> %logfile%
+rem %YU% -a %cfgFile% -o "%out%\%%(title)s.mp4" --ffmpeg-location %FF%> %logfile%
 rem %YU% -a %cfgFile% -o "%out%\%%(title)s.mp4" FORMAT --ffmpeg-location %FF% --no-playlist
 
 timeout 6
