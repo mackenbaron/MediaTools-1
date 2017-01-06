@@ -9,7 +9,7 @@
 @echo off
 cd /d "%~dp0"
 ::::::::::::::::: 參數設置 :::::::::::::::::
-if exist _Tools\ffmpeg\ffmpeg.exe (set FF=_Tools\ffmpeg\ffmpeg.exe)
+if exist _Tools\ffmpeg\ffmpeg.exe (set FF=_Tools\ffmpeg)
 if exist _Tools\youtube-dl\youtube-dl.exe (set YU=_Tools\youtube-dl\youtube-dl.exe)
 if exist _Tools\wbin\date.exe (set DT=_Tools\wbin\date.exe)
 ::今天日期的變數today
@@ -32,6 +32,6 @@ rem %YU% -a %cfgFile% -k -F
 echo Downloading from youtube, Please wait...
 %YU% -a %cfgFile% -o "%out%\%%(title)s.%%(ext)s"> %logfile%
 rem %YU% -a %cfgFile% -o "%out%\%%(title)s.mp4" --ffmpeg-location %FF%> %logfile%
+rem %YU% -a %cfgFile% --extract-audio --audio-format mp3 --audio-quality 0 --ffmpeg-location %FF%> %logfile%
 rem %YU% -a %cfgFile% -o "%out%\%%(title)s.mp4" FORMAT --ffmpeg-location %FF% --no-playlist
-
 timeout 6
