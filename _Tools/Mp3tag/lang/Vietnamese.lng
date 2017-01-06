@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Lưu tag vào các tập tin được chọn.
 _C_MNU_SB_FILE_SAVECONFIG Lưu các thiết lập hiện tại vào tập tin cấu hình.
 _C_MNU_SB_HELP_ABOUT Thông tin về Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Hiện phần giúp đỡ ngữ cảnh dành cho các trường được nhắp chuột, các menu và các cửa sổ.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Hiển thị nội dung giúp đỡ.
 _C_MNU_SB_HELP_FIRSTSTEPS Hiển thị một phần giới thiệu ngắn gọn về Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Hiển thị danh sách các phím tắt.
 _C_MNU_SB_HELP_SUPPORT Đến diễn đàn Mp3tag.
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Đến trang web của Mp3tag.
 _C_MNU_SB_UPDIR Chuyển lên thư mục cấp cao hơn
 _C_MNU_SB_VIEW_COLUMNS Hiện hộp thoại để tuỳ biến các cột trong vùng danh sách tập tin.

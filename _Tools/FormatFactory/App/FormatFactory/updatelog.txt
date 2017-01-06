@@ -1,3 +1,22 @@
+V4.00 2016.12.5
+1 Added HEVC(H265) codec in MP4,MKV
+2 Improved the algorithm of default bitrate 
+3 AVC,HEVC,DIVX support codec CRF mode
+4 Updated some codecs and decodecs to latest version
+
+V3.95 2016.7.17
+1 Added "All to WebM"
+2 Added MP3 VBR
+3 Fixed bugs that wrong writing order of Hebrew,Arabic subtitle. 
+4 Fixed the bug in Audio Joiner
+5 Fixed the bug of A/V Sync
+
+V3.90 2016.4.18
+1 Added BluRay Ripper
+2 Fixed the bug of Video Joiner
+3 Fixed the bug of Mux
+4 Added ALAC lossless codec in "All to M4A"
+
 V3.80 2015.10.17
 1 Added EBook supports Mobi,azw,epub
 2 Added PDF->Html

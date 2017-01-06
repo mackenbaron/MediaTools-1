@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Shingo Harada / SABOTEN
 LANGCONTACT harashin@gmail.com / saboten.has.no.mail.address@.jp
-LANGVERSION 2.74
+LANGVERSION 2.75
 LANGNAME Japanese
 LANGNAMELOC 日本語
 SLangCancel キャンセル(&C)
@@ -92,7 +92,7 @@ _C_MNU_FILE_FAVDIR お気に入りのディレクトリ(&F)\tCtrl+F
 _C_MNU_FILE_MOVE ファイルを移動
 _C_MNU_FILE_PLALL すべてのファイルからプレイリストファイルを作成\tCtrl+P
 _C_MNU_FILE_PLAY ファイルを再生
-_C_MNU_FILE_PLAYLIST プレイリスト/キューシートの読み込み...
+_C_MNU_FILE_PLAYLIST プレイリスト/キューシートの読込
 _C_MNU_FILE_PLSEL 選択したファイルからプレイリストファイルを作成
 _C_MNU_FILE_PROPERTIES プロパティ
 _C_MNU_FILE_READ フィールドすべてを読込(&T)\tCtrl+T
@@ -128,66 +128,68 @@ _C_MNU_VIEW_REFRESH 更新(&E)\tF5
 _C_MNU_VIEW_SORTBY 並替(&S)
 _C_MNU_VIEW_TAGS タグを編集(&X)\tALT+T
 _C_MNU_VIEW_TOOLBAR ツールバー(&L)
-_C_MNU_SB_ACTIONS 選択されたファイルにユーザー定義のアクションを適用(語形変化、置換など)
-_C_MNU_SB_CON_FTF 古いファイル名を元に定義されたパターンによってファイル名を変更
-_C_MNU_SB_CON_FTT 定義されたファイル名のパターンからタグを取得
-_C_MNU_SB_CON_TFF 定義されたテキストファイルのパターンからタグを取得
-_C_MNU_SB_CON_TTF 定義されたファイル名のパターンからファイル名を変更
+_C_MNU_SB_ACTIONS 選択されたファイルにユーザー定義のアクションを適用(語形変化、置換など)します
+_C_MNU_SB_CON_FTF 古いファイル名を元に定義されたパターンによってファイル名を変更します
+_C_MNU_SB_CON_FTT 定義されたファイル名のパターンからタグを取得します
+_C_MNU_SB_CON_TFF 定義されたテキストファイルのパターンからタグを取得します
+_C_MNU_SB_CON_TTF 定義されたファイル名のパターンからファイル名を変更します
 _C_MNU_SB_CON_TTT タグを基にタグをフォーマットします
-_C_MNU_SB_EDIT_COPY 選択されたテキストか選択されたファイルのタグをクリップボードにコピー
-_C_MNU_SB_EDIT_CUT 選択されたテキストか選択されたファイルのタグをクリップボードに切り取り
-_C_MNU_SB_EDIT_INVERTSELECTION 現在の選択を反転
-_C_MNU_SB_EDIT_NEXT ファイルリストにある次のファイルをマーク
-_C_MNU_SB_EDIT_PASTE 挿入マークか選択されたファイルにクリップボードの内容を貼り付け
-_C_MNU_SB_EDIT_SELECT ファイルリストにあるファイルを選択
-_C_MNU_SB_EDIT_UNDO 直前の行動をやり直し
-_C_MNU_SB_EDIT_UNSELECTALL すべて選択を解除
-_C_MNU_SB_EXTRA_OPTIONS Display オプションダイアログ
-_C_MNU_SB_EXTRA_RESET_EDITS タグパネルのすべてのフィールドにあるテキストを削除
-_C_MNU_SB_EXTRA_SET_EDITS すべてのタグパネルにある入力フィールドを定義された標準の値に設定
-_C_MNU_SB_EXTRA_TRACKWIZARD 自動トラックナンバーウィザードを実行
-_C_MNU_SB_FILE_ADD ファイルのリストにディレクトリを追加
-_C_MNU_SB_FILE_CDDB インターネット接続で挿入された音楽CDか選択された音楽ファイルの情報を取得
-_C_MNU_SB_FILE_CDDBLOCAL ローカルfreedbデータベースにある挿入された音楽CDか選択された音楽ファイルの情報を取得
-_C_MNU_SB_FILE_COPY 選択されたファイルを別のディレクトリにコピー
-_C_MNU_SB_FILE_DELETE 選択されたファイルを削除.
-_C_MNU_SB_FILE_DIR 現在のワーキングディレクトリを変更
-_C_MNU_SB_FILE_EXIT アプリケーションを閉じる
-_C_MNU_SB_FILE_EXPORT 選択されたファイルからタグとファイル情報を出力
-_C_MNU_SB_FILE_FAVDIR デフォルトのディレクトリに変更
-_C_MNU_SB_FILE_FREEDBINDEX ローカルfreedbインデックスを作成
-_C_MNU_SB_FILE_MOVE 選択されたファイルを別のディレクトリに移動
-_C_MNU_SB_FILE_PLALL すべてのファイルからプレイリストを作成
-_C_MNU_SB_FILE_PLAY 選択されたファイルを再生
-_C_MNU_SB_FILE_PLAYLIST プレイリストの内容の読み込み
-_C_MNU_SB_FILE_PLSEL 選択されたファイルからプレイリストを作成
-_C_MNU_SB_FILE_PROPERTIES 選択されたファイルのプロパティを表示
-_C_MNU_SB_FILE_READ タグパネルの入力フィールドに選択されたファイルを読み込む
-_C_MNU_SB_FILE_REMOVE 選択されたファイルからタグを削除
-_C_MNU_SB_FILE_REMOVEFILE Remove selected files.
-_C_MNU_SB_FILE_RENAME 選択されたファイルの名前を変更
-_C_MNU_SB_FILE_SAVE 選択されたファイルにタグを保存
-_C_MNU_SB_FILE_SAVECONFIG 現在の設定を設定ファイルに保存
-_C_MNU_SB_HELP_ABOUT Mp3tagについての情報
+_C_MNU_SB_EDIT_COPY 選択されたテキストか選択されたファイルのタグをクリップボードにコピーします
+_C_MNU_SB_EDIT_CUT 選択されたテキストか選択されたファイルのタグをクリップボードに切り取ります
+_C_MNU_SB_EDIT_INVERTSELECTION 現在の選択を反転します
+_C_MNU_SB_EDIT_NEXT ファイルリストにある次のファイルをマークします
+_C_MNU_SB_EDIT_PASTE 挿入マークか選択されたファイルにクリップボードの内容を貼り付けます
+_C_MNU_SB_EDIT_SELECT ファイルリストにあるファイルを選択します
+_C_MNU_SB_EDIT_UNDO 直前の行動を取り消し、元に戻します
+_C_MNU_SB_EDIT_UNSELECTALL すべて選択を解除します
+_C_MNU_SB_EXTRA_OPTIONS オプションダイアログを表示します
+_C_MNU_SB_EXTRA_RESET_EDITS タグパネルのすべてのフィールドにあるテキストを削除します
+_C_MNU_SB_EXTRA_SET_EDITS すべてのタグパネルにある入力フィールドを定義された標準の値に設定します
+_C_MNU_SB_EXTRA_TRACKWIZARD 自動トラックナンバーウィザードを実行します
+_C_MNU_SB_FILE_ADD ファイルのリストにディレクトリを追加します
+_C_MNU_SB_FILE_CDDB インターネット接続で挿入された音楽CDか選択された音楽ファイルの情報を取得します
+_C_MNU_SB_FILE_CDDBLOCAL ローカルfreedbデータベースにある挿入された音楽CDか選択された音楽ファイルの情報を取得します
+_C_MNU_SB_FILE_COPY 選択されたファイルを別のディレクトリにコピーします
+_C_MNU_SB_FILE_DELETE 選択されたファイルをディスク上から削除します。ゴミ箱がないリムーバルメディア上のファイルの場合、即参照できなくなります。
+_C_MNU_SB_FILE_DIR 現在の作業ディレクトリを変更します
+_C_MNU_SB_FILE_EXIT アプリケーションを閉じます
+_C_MNU_SB_FILE_EXPORT 選択されたファイルからタグとファイル情報をテキストファイルとして出力します
+_C_MNU_SB_FILE_FAVDIR デフォルトのディレクトリに変更します
+_C_MNU_SB_FILE_FREEDBINDEX ローカルfreedbインデックスを作成します
+_C_MNU_SB_FILE_MOVE 選択されたファイルを別のディレクトリに移動します
+_C_MNU_SB_FILE_PLALL すべてのファイルからプレイリストを作成します
+_C_MNU_SB_FILE_PLAY 選択されたファイルを既定のプログラムで開き再生します
+_C_MNU_SB_FILE_PLAYLIST プレイリストファイルやキューシートファイルからファイルを参照します
+_C_MNU_SB_FILE_PLSEL 選択されたファイルからプレイリストを作成します
+_C_MNU_SB_FILE_PROPERTIES 選択されたファイルのプロパティを表示します
+_C_MNU_SB_FILE_READ 選択されたファイルのタグすべてを読み込みます
+_C_MNU_SB_FILE_REMOVE 選択されたファイルからタグすべてを削除します
+_C_MNU_SB_FILE_REMOVEFILE ファイルリストから選択されたファイルを除去します
+_C_MNU_SB_FILE_RENAME 選択されたファイルの名前を変更します
+_C_MNU_SB_FILE_SAVE 選択されたファイルにタグすべてを保存します
+_C_MNU_SB_FILE_SAVECONFIG 現在の構成ファイルすべてを一つのアーカイブファイルにまとめて保存します
+_C_MNU_SB_HELP_ABOUT Mp3tagについての情報を表示します
 _C_MNU_SB_HELP_CONTEXT クリックされたフィールド、メニュー、ウィンドウについてのコンテキストヘルプを表示
-_C_MNU_SB_HELP_FINDER ヘルプの目次を表示
-_C_MNU_SB_HELP_FIRSTSTEPS Mp3tagの短い紹介を表示
-_C_MNU_SB_HELP_KEYBOARD キーボードショートカットのリストを表示
-_C_MNU_SB_HELP_SUPPORT Mp3tag フォーラム
-_C_MNU_SB_HELP_WWW Mp3tag ウェブサイト
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
+_C_MNU_SB_HELP_FINDER ヘルプの目次（英語）を表示します
+_C_MNU_SB_HELP_FIRSTSTEPS Mp3tagの短い紹介（英語）を表示します
+_C_MNU_SB_HELP_KEYBOARD キーボードショートカット（英語）のリストを表示します
+_C_MNU_SB_HELP_SUPPORT Mp3tag フォーラム（英語）をブラウザで開きます
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
+_C_MNU_SB_HELP_WWW Mp3tag ウェブサイト（英語）をブラウザで開きます
 _C_MNU_SB_UPDIR 上のディレクトリに移動
-_C_MNU_SB_VIEW_COLUMNS ファイルリストのカラムをカスタマイズできるダイアログを表示
-_C_MNU_SB_VIEW_FILTER ファイルリストをフィルタ
-_C_MNU_SB_VIEW_ID3 タグ入力マスクを表示/隠す.
-_C_MNU_SB_VIEW_REFRESH ファイルリストを更新
-_C_MNU_SB_VIEW_TAGS タグを編集
-_C_MNU_SB_VIEW_TOOLBAR ツールバーを表示/隠す
-_C_MNU_SB_WND_IDLE 準備中
-_C_MNU_SB_WND_MAXIMIZE ウィンドウ最大化
-_C_MNU_SB_WND_MINIMIZE ウィンドウをタスクバーに最小化
-_C_MNU_SB_WND_MOVE ウィンドウの位置を移動
-_C_MNU_SB_WND_RESTORE ウィンドウのサイズを元に戻す
-_C_MNU_SB_WND_SIZE ウィンドウのサイズを変更
+_C_MNU_SB_VIEW_COLUMNS ファイルリストのカラムをカスタマイズできるダイアログを表示します
+_C_MNU_SB_VIEW_FILTER ファイルリストをフィルタリングします
+_C_MNU_SB_VIEW_ID3 タグ入力マスクを表示または非表示にします
+_C_MNU_SB_VIEW_REFRESH ファイルリストを更新します
+_C_MNU_SB_VIEW_TAGS タグを編集します
+_C_MNU_SB_VIEW_TOOLBAR ツールバーを表示または非表示にします
+_C_MNU_SB_WND_IDLE 待機中
+_C_MNU_SB_WND_MAXIMIZE ウィンドウ最大化します
+_C_MNU_SB_WND_MINIMIZE ウィンドウをタスクバーに最小化します
+_C_MNU_SB_WND_MOVE ウィンドウの位置を移動します
+_C_MNU_SB_WND_RESTORE ウィンドウのサイズを元に戻します
+_C_MNU_SB_WND_SIZE ウィンドウのサイズを変更します
 _C_MULTILINE 複数行フィールド
 _C_OK &OK
 _C_OPT_ACTIONGROUPS アクショングループ
@@ -229,9 +231,9 @@ _C_OPT_EXP_FRM_EXPORT 設定を出力
 _C_OPT_EXP_RD_TRACK トラック
 _C_OPT_EXP_ST_FNAME 下のファイル名で出力:
 _C_OPT_EXP_ST_NAME 新しく出力された設定の名前
-_C_OPT_FMT_CASE 値の大文字小文字変換
+_C_OPT_FMT_CASE 値の大文字・小文字変換
 _C_OPT_FMT_FRM_FTF ファイル名 - ファイル名
-_C_OPT_FMT_ST_BEGIN 以下の文字に続く文字は大文字にする。
+_C_OPT_FMT_ST_BEGIN 例外規定。以下の文字に続く文字は大文字
 _C_OPT_FMT_ST_FNAME_NEW 新しいファイル名のパターン
 _C_OPT_FMT_ST_FNAME_OLD 古いファイル名のパターン
 _C_OPT_FMT2 値を置換
@@ -259,7 +261,7 @@ _C_OPT_GEN_CHK_RELPL エントリーは作業ディレクトリと関連させ�
 _C_OPT_GEN_CHK_AUTOCOMPLETE プルダウンボックス上でオートコンプリートを有効
 _C_OPT_GEN_CHK_SELECTFILES 自動的にファイルを選択
 _C_OPT_GEN_CHK_SORTNATURAL 自然な並替を使用 (1,10,11,12,2,3,,,を防ぐ)
-_C_OPT_GEN_CHK_TITLESHOWFOLDERPATH 現在のディレクトリをウィンドウタイトルに表示(&S)
+_C_OPT_GEN_CHK_TITLESHOWFOLDERPATH 現在の作業ディレクトリをウィンドウタイトルに表示(&S)
 _C_OPT_GEN_FRM_GEN 一般
 _C_OPT_GEN_FRM_MSG メッセージの表示
 _C_OPT_GEN_FRM_PL プレイリストのファイル名(&F)
@@ -368,11 +370,11 @@ _M_ERR_OPT_CDDB_NOADDRESS freedbサーバーのアドレスを入力してくだ
 _M_ERR_OPT_CDDB_NOEMAIL あなたのEメールアドレスを'オプション, freedb, サーバー'に.入力してください freedbサーバーへのアクセス記録に使用されます
 _M_ERR_OPT_CDDB_NONAME 設定に有効な名前を入力してください
 _M_ERR_OPT_CDDB_NOPORT freedbサーバーのポート番号を入力してください
-_M_ERR_PARSELINE Cannot parse line {1}.
+_M_ERR_PARSELINE 行番号: {1} をパースできません
 _M_ERR_PLAY ファイル \"{1}\" を再生できません
 _M_ERR_READ_FILE ファイル \"{1}\" を読み込めません
 _M_ERR_RENAME_FILE ファイル \"{1}\" の名前を \"{2}\" に変更できません
-_M_ERR_TL_NOTAGS No matching entry for file \"{1}\".
+_M_ERR_TL_NOTAGS \"{1}\" にマッチするエントリーがありません
 _M_ERR_WRITE_FILE ファイル \"{1}\" に書き込めません
 _M_ERR_YN \n\n続けますか?
 _M_LOG_FMT_FNAME {1} / {2} のファイルの名前が変更されました\n
@@ -387,7 +389,7 @@ _M_LOG_REMOVE_NOTAG ファイル \"{1}\" にはタグがありません.
 _M_LOG_SAVE ファイル \"{1}\" のタグを保存しました
 _M_LOG_SAVED {1} / {2} のファイルのタグを保存しました
 _M_LOG_TFF テキストファイル \"{1}\" からタグが取り出され、{2} of {3} のファイルにタグを保存しました
-_M_LOG_TFF_S Imported tags from \"{1}\" to one file.
+_M_LOG_TFF_S テキストファイル \"{1}\" からタグが取り出され、ファイルにタグを保存しました
 _M_LOG_TTF {1} / {2} のファイルの名前を変更しました
 _M_STAT_PLAY ファイル \"{1}\" を再生中
 _M_STR_ACTION_CODEPAGE 値のコードページを変換
@@ -461,15 +463,15 @@ _M_STR_FILEDELETE 本当にすべての選択されたファイルを削除し�
 _M_STR_FILEMODIFIED 更新日時
 _M_STR_FILESIZE サイズ
 _M_STR_FILTER フィルタ:
-_M_STR_FMT_CAPITAL キャピタライズ / Power Of Music [accoustic Version]
-_M_STR_FMT_HIGH すべて大文字 / POWER OF MUSIC [LIVE VERSION]
-_M_STR_FMT_LOW すべて小文字 / power of music [live version]
-_M_STR_FMT_SENTENCE 文章体 / Power of music. is it live version? yes.
+_M_STR_FMT_CAPITAL キャピタライズ(例外設定可) / Power Of Music [live Version]
+_M_STR_FMT_HIGH 無条件ですべて大文字 / POWER OF MUSIC [LIVE VERSION]
+_M_STR_FMT_LOW 無条件ですべて小文字 / power of music [live version]
+_M_STR_FMT_SENTENCE 文章体(例外設定可) / Power of music. is it live version? yes.
 _M_STR_FREEDBCREATEINDEX ローカルfreedbインデックスデータベースを作成しますか?\n\nこれには少し時間が掛かります
 _M_STR_FREEDB_SEARCH freedbウェブ検索
 _M_STR_GENRE ジャンル
 _M_STR_GENRES ジャンル
-_M_STR_HIDE 隠す(&H)
+_M_STR_HIDE 非表示(&H)
 _M_STR_ID3 ID3
 _M_STR_ITEMALREADYEXISTS 同じ名前のファイルが存在します 上書きしますか?
 _M_STR_LANGUAGE 言語
@@ -499,7 +501,7 @@ _M_STR_OPTS_ASK その都度確認ダイアログを表示し保存するかど�
 _M_STR_OPTS_NEVER 確認せず常に自動保存しない（編集は反映されず破棄される）
 _M_STR_PLNAME プレイリスト - ファイル名
 _M_STR_PL_CONFIRM この名前でプレイリストを作成
-_M_STR_PL_SAVEFILTER プレイリストファイル (*.m3u)|*.m3u|ユニコードプレイリストファイル (*.m3u8)|*.m3u8||
+_M_STR_PL_SAVEFILTER プレイリストファイル (*.m3u)|*.m3u|Unicodeプレイリストファイル (*.m3u8)|*.m3u8||
 _M_STR_PREVIEW プレビュー
 _M_STR_PROPERTIES {1} プロパティ
 _M_STR_QUICK クイック
@@ -507,7 +509,7 @@ _M_STR_RECURSE サブディレクトリ以下も含む
 _M_STR_REST その他
 _M_STR_SAVE_NOT < 関連無し >
 _M_STR_SAVECONFIG あなたの設定はファイルに保存されました '{1}'.\n\n設定を再構築するには、ファイル \n\"{2}\" から取り出してください
-_M_STR_SAVECONFIG_FILEDLGFILTER 設定ファイル (*.zip)|*.zip||
+_M_STR_SAVECONFIG_FILEDLGFILTER アーカイブ (*.zip)|*.zip||
 _M_STR_SAVECONFIG_FILEDLGTITLE 設定を保存
 _M_STR_SAVEIMAGE タグに画像を保存
 _M_STR_SAVEIMAGEDIRECTORY 画像をハードディスクに保存

@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Gem tag i valgte filer.
 _C_MNU_SB_FILE_SAVECONFIG Gem nuværende indstillinger i en konfigurationsfil.
 _C_MNU_SB_HELP_ABOUT Information om Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Vis kontekst hjælp for klikket felter, menuer og vinduer.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Vis indholdet af hjælp.
 _C_MNU_SB_HELP_FIRSTSTEPS Vis en kort introduktion til Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Vis en liste af tastatur genveje.
 _C_MNU_SB_HELP_SUPPORT Gå til Mp3tag forum.
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Gå til Mp3tag website.
 _C_MNU_SB_UPDIR Skift til overordnet mappe
 _C_MNU_SB_VIEW_COLUMNS Vis en dialog hvor kolonnerne for filvisning kan tilpasses.

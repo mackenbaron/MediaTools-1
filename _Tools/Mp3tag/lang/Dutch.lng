@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Jaap-Jan van der Veen
 LANGCONTACT jjvdveen@home.nl
-LANGVERSION 2.69
+LANGVERSION 2.79
 LANGNAME Dutch
 LANGNAMELOC Nederlands
 SLangCancel &Annuleren
@@ -155,7 +155,7 @@ _C_MNU_SB_FILE_DIR Map wijzigen.
 _C_MNU_SB_FILE_EXIT Programma afsluiten.
 _C_MNU_SB_FILE_EXPORT Tag- en bestandsinformatie van geselecteerde bestanden exporteren.
 _C_MNU_SB_FILE_FAVDIR De standaardmap wijzigen.
-_C_MNU_SB_FILE_FREEDBINDEX Lokale freedb index aanmaken voor het doorzoeken van de lokale freedb
+_C_MNU_SB_FILE_FREEDBINDEX Lokale freedb index aanmaken voor het doorzoeken van de lokale freedb.
 _C_MNU_SB_FILE_MOVE Geselecteerde bestanden verplaatsen naar een andere map.
 _C_MNU_SB_FILE_PLALL Afspeellijst maken van alle bestanden.
 _C_MNU_SB_FILE_PLAY Geselecteerde bestanden afspelen.
@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Tag opslaan in geselecteerde bestanden.
 _C_MNU_SB_FILE_SAVECONFIG Huidige instellingen opslaan in een configuratiebestand.
 _C_MNU_SB_HELP_ABOUT Informatie over Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Context help tonen voor aangeklikte velden, menu's en vensters.
+_C_MNU_SB_HELP_DONATE Overweegt u alsublieft een donatie zodat Mp3tag verder kan worden ontwikkeld.
 _C_MNU_SB_HELP_FINDER Helpinhoud tonen.
 _C_MNU_SB_HELP_FIRSTSTEPS Een korte introductie tot Mp3tag weergeven.
 _C_MNU_SB_HELP_KEYBOARD Lijst van sneltoetsen weergeven.
 _C_MNU_SB_HELP_SUPPORT De Mp3tag forums bezoeken.
+_C_MNU_SB_HELP_UPGRADE Controleren of er een nieuwe versie van Mp3tag is.
 _C_MNU_SB_HELP_WWW De Mp3tag website bezoeken.
 _C_MNU_SB_UPDIR Naar bovenliggende map gaan
 _C_MNU_SB_VIEW_COLUMNS Een venster tonen waar de kolommen voor het bestandsoverzicht kunnen worden aangepast.
@@ -183,7 +185,7 @@ _C_MNU_SB_VIEW_REFRESH Bestandsoverzicht vernieuwen.
 _C_MNU_SB_VIEW_TAGS Extra taginformatie tonen.
 _C_MNU_SB_VIEW_TOOLBAR Tonen/verbergen van de werkbalk.
 _C_MNU_SB_WND_IDLE Gereed
-_C_MNU_SB_WND_MAXIMIZE Venster vergroten naar volledige schermgrootte.
+_C_MNU_SB_WND_MAXIMIZE Venster vergroten naar volledige schermgrootte
 _C_MNU_SB_WND_MINIMIZE Venster minimaliseren naar taakbalk
 _C_MNU_SB_WND_MOVE Positie van venster veranderen
 _C_MNU_SB_WND_RESTORE Venster herstellen naar normale grootte
@@ -193,8 +195,8 @@ _C_OK &OK
 _C_OPT_ACTIONGROUPS Actiegroepen
 _C_OPT_ACTIONS Acties
 _C_OPT_ACTIONS_TYPE Actietype selecteren
-_C_OPT_ADVANCED Advanced
-_C_OPT_ADVANCED_ID3V2LANG ID3v2 comment language code (ISO-639-2)
+_C_OPT_ADVANCED Geavanceerd
+_C_OPT_ADVANCED_ID3V2LANG Taalcode voor ID3v2 commentaarveld (ISO-639-2)
 _C_OPT_CAPTION Opties
 _C_OPT_CDDB_CAPTION freedb
 _C_OPT_CDDB_CHK_USEPROXY Pr&oxy gebruiken
@@ -257,7 +259,7 @@ _C_OPT_GEN_CHK_MSG_SAVE na opslaan
 _C_OPT_GEN_CHK_PL &Automatisch afspeellijst aanmaken
 _C_OPT_GEN_CHK_RELPL Item relatief ten opzichte van werkmap
 _C_OPT_GEN_CHK_AUTOCOMPLETE Automatisch aanvullen van invoervelden
-_C_OPT_GEN_CHK_SELECTFILES Select files automatically
+_C_OPT_GEN_CHK_SELECTFILES Bestanden automatisch selecteren
 _C_OPT_GEN_CHK_SORTNATURAL Natuurlijke sorteervolgorde gebruiken
 _C_OPT_GEN_CHK_TITLESHOWFOLDERPATH &Huidige map tonen in vensternaam
 _C_OPT_GEN_FRM_GEN Algemeen
@@ -298,7 +300,7 @@ _C_OPT_TAG_ST_YEAR &Jaar:
 _C_OPT_TAGS_COVER Standaardbestandsnaam voor cover:
 _C_OPT_TAGS_EXT Opslagmodus voor << en >> bij dialoog voor extra tags:
 _C_OPT_TAGS_FILEFILTER Inkomende bestanden beperken tot:
-_C_OPT_TAGS_NOIMG &Eerste plaatje uit de bestandsmap niet tonen als cover.
+_C_OPT_TAGS_NOIMG &Eerste plaatje uit de bestandsmap niet tonen als cover
 _C_OPT_TOOLS Extra
 _C_OPT_TOOLS_CHK_DEFAULT Speciaal programma gebruiken bij dubbelklikken:
 _C_OPT_TOOLS_CHK_MULTIPLEINSTANCES voor alle geselecteerde bestanden
@@ -357,7 +359,7 @@ _M_ERR_FILENAMEALREADYEXISTS2 Bestand word overgeslagen \"{1}\".
 _M_ERR_FILEOPABORTED De inhoud van de huidige map is gewijzigd.\n\nWilt u de huidige map herlezen?
 _M_ERR_FILEOPEN Bestand \"{1}\" kon niet worden geopend.
 _M_ERR_FILEREADONLY Het bestand \"{1}\" is gemarkeerd als alleen-lezen.\n\nMoet Mp3tag de schrijfbeveiliging van dit bestand alle volgende bestanden opheffen?
-_M_ERR_FOLDERCANNOTBEACCESSED Toegangsfout\n\nGeen toegang tot de map \'{1}\'
+_M_ERR_FOLDERCANNOTBEACCESSED Toegangsfout\n\nGeen toegang tot de map \'{1}\'.
 _M_ERR_INVALID_FILENAME U moet een geldige bestandsnaam opgeven.
 _M_ERR_INVALID_FTF_FS Regel \"{1}\" is geen geldige formattering voor bestandsnamen.
 _M_ERR_INVALID_TOKEN {1}:\nDeze tekens zijn niet toegestaan in bestandsnamen:\n\\ / : * ? \" < > |\n\nMoet dit automatisch gecorrigeerd worden?

@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Valeri Vladimirov
 LANGCONTACT valeri1955@abv.bg
-LANGVERSION 2.74
+LANGVERSION 2.79
 LANGNAME Bulgarian
 LANGNAMELOC Български
 SLangCancel О&тказ
@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Запази таговете на избраните фай
 _C_MNU_SB_FILE_SAVECONFIG Запази текущите настройки в конфигурационния файл.
 _C_MNU_SB_HELP_ABOUT Информация за програмата \"Mp3tag\".
 _C_MNU_SB_HELP_CONTEXT Покажи контекстна помощ по посочените полета, меню и прозорци.
+_C_MNU_SB_HELP_DONATE Моля, помислете за дарение, за да подпомогнете разработването на \"Mp3tag\".
 _C_MNU_SB_HELP_FINDER Централна информация ...
 _C_MNU_SB_HELP_FIRSTSTEPS Покажи кратко предисловие към програмата \"Mp3tag\".
 _C_MNU_SB_HELP_KEYBOARD Покажи списък на клавишите за бърза навигация.
 _C_MNU_SB_HELP_SUPPORT Премини към форума на \"Mp3tag\" ...
+_C_MNU_SB_HELP_UPGRADE Провери за нова версия на \"Mp3tag\".
 _C_MNU_SB_HELP_WWW Премини към уебсайта на \"Mp3tag\".
 _C_MNU_SB_UPDIR Премини в папка на едно ниво по нагоре.
 _C_MNU_SB_VIEW_COLUMNS Покажи диалог, където колонките на избрания файл могат да бъдат настройвани.

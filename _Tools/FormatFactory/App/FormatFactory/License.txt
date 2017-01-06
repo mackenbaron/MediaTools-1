@@ -1,9 +1,3 @@
-EULA
-http://www.pcfreetime.com/EULA.html
-
-Privacy Policy
-http://www.pcfreetime.com/Privacy.html
-
 Format Factory provides main functions below:
  All to MP4/3GP/MPG/AVI/WMV/FLV/SWF.
  All to MP3/WMA/AMR/OGG/AAC/WAV.
@@ -22,7 +16,7 @@ Format Factory's Feature:
  6 DVD Ripper.
  7 Supports 63 languages
 
-The installation package contains Baidu.com(Only Chinese User)and Ask.com Toolbar, If you uncheck installation options. They will not affect your computer.
+The installation package contains IronSource adware, If you uncheck installation options. They will not affect your computer.
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 

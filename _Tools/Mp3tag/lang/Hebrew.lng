@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR IONIL
-LANGCONTACT bobiganush@yahoo.com
-LANGVERSION 2.74
+LANGCONTACT ion_il@yahoo.com
+LANGVERSION 2.79
 LANGNAME Hebrew
 LANGNAMELOC עברית
 SLangCancel ביטול
@@ -170,11 +170,13 @@ _C_MNU_SB_FILE_SAVE .שמירת תגית בקבצים שנבחרו
 _C_MNU_SB_FILE_SAVECONFIG .שמירת הקביעות הנוכחיות בקובץ תצורה
 _C_MNU_SB_HELP_ABOUT Mp3tag מידע אודות
 _C_MNU_SB_HELP_CONTEXT .הצגת עזרה קשורה לשדות, תפריטים וחלונות שנלחצו
+_C_MNU_SB_HELP_DONATE .Mp3tag אנא שקול לתרום כדי לתמוך בפיתוח של
 _C_MNU_SB_HELP_FINDER .הצגת תכני העזרה
 _C_MNU_SB_HELP_FIRSTSTEPS .Mp3tag-הצגת הקדמה קצרה ל
 _C_MNU_SB_HELP_KEYBOARD .הצגת רשימת קיצורי דרך ממקלדת
-_C_MNU_SB_HELP_SUPPORT Mp3tag העברה לפורומי
-_C_MNU_SB_HELP_WWW Mp3tag העברה לאתר של
+_C_MNU_SB_HELP_SUPPORT .Mp3tag מעבר לפורומים של
+_C_MNU_SB_HELP_UPGRADE .Mp3tag בדיקה אחר עדכונים של
+_C_MNU_SB_HELP_WWW .Mp3tag מעבר לאתר של
 _C_MNU_SB_UPDIR שינוי לספרייה עליונה
 _C_MNU_SB_VIEW_COLUMNS .הצגת חלון שבו עמודות לתצוגת קבצים יכולות להיתאם
 _C_MNU_SB_VIEW_FILTER .סינון תצוגת הקבצים

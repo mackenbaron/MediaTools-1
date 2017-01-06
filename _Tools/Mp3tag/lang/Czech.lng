@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Václav Pavlíček, earlier Milan Hrubý
 LANGCONTACT v.pavlicek@centrum.cz
-LANGVERSION 2.74
+LANGVERSION 2.79
 LANGNAME Czech
 LANGNAMELOC Čeština
 SLangCancel Storno
@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Uloží tag do vybraných souborů.
 _C_MNU_SB_FILE_SAVECONFIG Uloží aktuální nastavení do konfiguračního souboru.
 _C_MNU_SB_HELP_ABOUT Zobrazí informace o programu Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Po kliknutí na pole, nabídky a okna se zobrazí kontextová nápověda.
+_C_MNU_SB_HELP_DONATE Pokud chcete podpořit vývoj programu Mp3tag, zvažte prosím darování.
 _C_MNU_SB_HELP_FINDER Zobrazí obsah nápovědy.
 _C_MNU_SB_HELP_FIRSTSTEPS Zobrazí krátký úvod do programu Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Zobrazí seznam klávesových zkratek.
 _C_MNU_SB_HELP_SUPPORT Přejde na webovou stránku Mp3tag Forums.
+_C_MNU_SB_HELP_UPGRADE Zkontroluje aktualizace programu Mp3tag.
 _C_MNU_SB_HELP_WWW Přejde na webovou stránku programu Mp3tag.
 _C_MNU_SB_UPDIR Přejde do nadřazené složky.
 _C_MNU_SB_VIEW_COLUMNS Zobrazí dialog pro přizpůsobení sloupců v seznamu souborů.

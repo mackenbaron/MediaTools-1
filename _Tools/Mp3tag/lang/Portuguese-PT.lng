@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Rui Aguiar, Pedro Vieira
 LANGCONTACT rui_a_aguiar@hotmail.com
-LANGVERSION 2.41
+LANGVERSION 2.75
 LANGNAME Portuguese
 LANGNAMELOC Português
 SLangCancel &Cancelar
@@ -24,7 +24,7 @@ SLangWrnAppIsAlreadyRunning Uma sessão deste programa já se encontra activa.
 SLangWrnAppHasToBeRestarted O Mp3tag tem que ser reiniciado para aplicar as novas alterações.\n\nDeseja reiniciar o Mp3tag agora?
 SLangWrnNameContainsInvalidCharacters A descrição contém caracteres inválidos.\n\n» Por favor, use outra descrição.
 SLangWrnStartLogging Você iniciou o {1} com o parâmetro de linha de comando FLOG1. Este parâmetro é usado para debug.\n\nDeseja iniciar a função de log?
-_C_ABORT Abort
+_C_ABORT Abortar
 _C_APP_ST_ALBUM &Album:
 _C_APP_ST_ARTIST Art&ista:
 _C_APP_ST_COMMENT &Comentário:
@@ -97,7 +97,7 @@ _C_MNU_FILE_PLSEL Lista de execução (Ficheiros seleccionados)
 _C_MNU_FILE_PROPERTIES Propriedades...
 _C_MNU_FILE_READ Ler &Tag\tCtrl+T
 _C_MNU_FILE_REMOVE &Remover tag\tCtrl+R
-_C_MNU_FILE_REMOVEFILE Re&move\tDel
+_C_MNU_FILE_REMOVEFILE Re&mover\tDel
 _C_MNU_FILE_RENAME Renomear\tF2
 _C_MNU_FILE_SAVE &Guardar tag\tCtrl+S
 _C_MNU_FILE_SAVECONFIG Guardar &configuração...
@@ -107,8 +107,8 @@ _C_MNU_FS_EXT Campos Extendidos
 _C_MNU_FS_FNCT Funções
 _C_MNU_FS_INFO Informação dos Campos
 _C_MNU_FS_REM Remover do Histórico
-_C_MNU_FS_REMALL Remove all from history...
-_C_MNU_FS_REMALL_MSG Are you sure that you want to remove all items?
+_C_MNU_FS_REMALL Remover tudo do histórico...
+_C_MNU_FS_REMALL_MSG Tem certeza de que deseja remover todos os itens?
 _C_MNU_HELP A&juda
 _C_MNU_HELP_ABOUT Sobre o Mp3tag...
 _C_MNU_HELP_DONATE Doação
@@ -133,7 +133,7 @@ _C_MNU_SB_CON_FTF Renomear ficheiros a partir de um padrão baseado no nome ante
 _C_MNU_SB_CON_FTT Obter tag a partir dos nomes do ficheiro.
 _C_MNU_SB_CON_TFF Obter tag a partir de uma lista definida num ficheiro.
 _C_MNU_SB_CON_TTF Renomear ficheiros a partir de um padrão baseado nas tags.
-_C_MNU_SB_CON_TTT Format tags based on tags.
+_C_MNU_SB_CON_TTT Formatar tags baseado em tags.
 _C_MNU_SB_EDIT_COPY Copiar texto seleccionado ou a tag dos ficheiros seleccionados para a área de transferência.
 _C_MNU_SB_EDIT_CUT Recortar texto seleccionado ou a tag dos ficheiros seleccionados para a área de transferência.
 _C_MNU_SB_EDIT_INVERTSELECTION Inverter a selecção.
@@ -164,16 +164,18 @@ _C_MNU_SB_FILE_PLSEL Criar lista de execução dos ficheiros seleccionados.
 _C_MNU_SB_FILE_PROPERTIES Mostrar as propriedades do ficheiro seleccionado.
 _C_MNU_SB_FILE_READ Ler tag do ficheiro seleccionado para o campo de entrada.
 _C_MNU_SB_FILE_REMOVE Remover tag do ficheiro seleccionado.
-_C_MNU_SB_FILE_REMOVEFILE Remove selected files.
+_C_MNU_SB_FILE_REMOVEFILE Remover ficheiros seleccionados.
 _C_MNU_SB_FILE_RENAME Renomear o ficheiro seleccionado.
 _C_MNU_SB_FILE_SAVE Guardar a tag no ficheiro seleccionado.
 _C_MNU_SB_FILE_SAVECONFIG Guardar a configuração actual em um ficheiro.
 _C_MNU_SB_HELP_ABOUT Informações sobre o Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Mostrar a ajuda de contexto para campos clicados, menus e janelas.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Conteúdo da ajuda.
 _C_MNU_SB_HELP_FIRSTSTEPS Exibir uma pequena introdução ao Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Mostrar lista de Atalhos de Teclado.
 _C_MNU_SB_HELP_SUPPORT Ir para o fórum do Mp3tag.
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Ir para o site do Mp3tag.
 _C_MNU_SB_UPDIR Mudar para uma pasta acima
 _C_MNU_SB_VIEW_COLUMNS Mostrar caixa de diálogo para personalizar as colunas da lista de ficheiros.
@@ -188,13 +190,13 @@ _C_MNU_SB_WND_MINIMIZE Minimizar a janela para a barra de tarefas.
 _C_MNU_SB_WND_MOVE Mover a janela.
 _C_MNU_SB_WND_RESTORE Restaurar a janela para o tamanho normal.
 _C_MNU_SB_WND_SIZE Mudar o tamanho da janela.
-_C_MULTILINE Multiline
+_C_MULTILINE Multilinha
 _C_OK &OK
 _C_OPT_ACTIONGROUPS Grupos de acção
 _C_OPT_ACTIONS Acções
 _C_OPT_ACTIONS_TYPE Seleccione o tipo de acção
-_C_OPT_ADVANCED Advanced
-_C_OPT_ADVANCED_ID3V2LANG ID3v2 comment language code (ISO-639-2)
+_C_OPT_ADVANCED Avançado
+_C_OPT_ADVANCED_ID3V2LANG Código de linguagem (ISO-639-2) no Comentário ID3v2 
 _C_OPT_CAPTION Opções
 _C_OPT_CDDB_CAPTION freedb
 _C_OPT_CDDB_CHK_USEPROXY &Usar servidor proxy
@@ -219,8 +221,8 @@ _C_OPT_CON_FRM_TFF Ficheiro com &Lista de tags  -->  Tag
 _C_OPT_CON_FRM_TTF &Tag  -->  Nome do ficheiro
 _C_OPT_CON_ST_FNAME Nome do ficheiro:
 _C_OPT_CON_ST_FS Formato:
-_C_OPT_DIR Directories
-_C_OPT_DIR_COVER Cover art directory
+_C_OPT_DIR Directórios
+_C_OPT_DIR_COVER Directório Cover art
 _C_OPT_EMPTY_HINT Por favor, seleccione um tópico abaixo
 _C_OPT_EXP_CAPTION Exportar
 _C_OPT_EXP_CHK_APPEND Adicionar os dados ao final do ficheiro
@@ -253,11 +255,11 @@ _C_OPT_GEN_CHK_MSG_DELETEFILE Ao excluir ficheiros
 _C_OPT_GEN_CHK_MSG_EXPORT Ao exportar tags
 _C_OPT_GEN_CHK_MSG_PASTE Ao colar tags
 _C_OPT_GEN_CHK_MSG_REMOVETAGS a remoção de Tags
-_C_OPT_GEN_CHK_MSG_SAVE Após suardar
+_C_OPT_GEN_CHK_MSG_SAVE Após guardar
 _C_OPT_GEN_CHK_PL Criar &lista de execução automaticamente
 _C_OPT_GEN_CHK_RELPL Entradas relativas à pasta de trabalho
 _C_OPT_GEN_CHK_AUTOCOMPLETE Auto-completar nas caixas de selecção
-_C_OPT_GEN_CHK_SELECTFILES Select files automatically
+_C_OPT_GEN_CHK_SELECTFILES Selecionar ficheiros automaticamente
 _C_OPT_GEN_CHK_SORTNATURAL Use triagem natural
 _C_OPT_GEN_CHK_TITLESHOWFOLDERPATH &Exibir a pasta actual no título da janela
 _C_OPT_GEN_FRM_GEN Geral
@@ -269,7 +271,7 @@ _C_OPT_GEN_ST_FAVDIR Pasta Favorita:
 _C_OPT_GEN2_CAPTION Mensagens
 _C_OPT_GENRES Géneros definidos pelo utilizador
 _C_OPT_GENRES_HIDESTANDARD Exibir somente os géneros definidos pelo utilizador
-_C_OPT_ID3_CHK_ISO88591 Escreve sempre tags no formato ISO-8859-1 em vez de UTF-16
+_C_OPT_ID3_CHK_ISO88591 Escrever sempre tags no formato ISO-8859-1 em vez de UTF-16
 _C_OPT_ID3_CHK_LEADINGZEROS Zeros antes dos números das faixas (01, 02, ...)
 _C_OPT_ID3_CHK_LENGTHDEPENDEND ID3v2 somente se ID3v1 for muito pequena
 _C_OPT_ID3_CHK_V1 ID3v1
@@ -278,9 +280,9 @@ _C_OPT_ID3_FRM_READ Ler
 _C_OPT_ID3_FRM_REMOVE Remover
 _C_OPT_ID3_FRM_WRITE Gravar
 _C_OPT_MAPPING Mapping
-_C_OPT_MAPPING_FRM User-defined field mappings 
-_C_OPT_MAPPING_SOURCE Source
-_C_OPT_MAPPING_TARGET Target
+_C_OPT_MAPPING_FRM Mappings  de campo definidas pelo utilizador
+_C_OPT_MAPPING_SOURCE Origem
+_C_OPT_MAPPING_TARGET Destino
 _C_OPT_PLAYLIST_CAPTION Lista de execução
 _C_OPT_PLAYLIST_EXTENDED Gravar informação avançada
 _C_OPT_PLAYLIST_NOFOLDERS Não criar directórios
@@ -313,7 +315,7 @@ _C_TT_CDDB freedb...
 _C_TT_CDDBLOCAL freedb (local)...
 _C_TT_CLOSE Fechar
 _C_TT_DIR Mudar a pasta...
-_C_TT_EDIT_UNDO Desfazer
+_C_TT_EDIT_UNDO Anular
 _C_TT_EXPORT Exportar
 _C_TT_FAVDIR Pasta Favorita
 _C_TT_FILE_ADD Adicionar pasta...
@@ -368,7 +370,7 @@ _M_ERR_OPT_CDDB_NOADDRESS Por favor, insira o endereço de um servidor freedb.
 _M_ERR_OPT_CDDB_NOEMAIL Por favor, insira o seu E-mail em 'Opções -> freedb -> Servidor'. Ele será usado para o registo de accesso ao servidor do freedb.
 _M_ERR_OPT_CDDB_NONAME Por favor, insira um nome válido para a configuração.
 _M_ERR_OPT_CDDB_NOPORT Por favor, insira o número da porta de um Servidor freedb.
-_M_ERR_PARSELINE Cannot parse line {1}.
+_M_ERR_PARSELINE Não é possível analisar linha {1}.
 _M_ERR_PLAY Não foi possível reproduzir o ficheiro \"{1}\"!
 _M_ERR_READ_FILE O ficheiro \"{1}\" não pôde ser aberto para leitura.
 _M_ERR_RENAME_FILE O ficheiro \"{1}\" não pôde ser renomeado para \"{2}\".
@@ -387,7 +389,7 @@ _M_LOG_REMOVE_NOTAG Sem tag no ficheiro \"{1}\".
 _M_LOG_SAVE Guardada a tag no ficheiro \"{1}\".
 _M_LOG_SAVED Tag guardada em {1} de {2} ficheiros.
 _M_LOG_TFF Tags extraídas da lista de tags \"{1}\" e guardada em {2} de {3} ficheiros.
-_M_LOG_TFF_S Imported tags from \"{1}\" to one file.
+_M_LOG_TFF_S Importar tags de \"{1}\" para um ficheiro.
 _M_LOG_TTF {1} de {2} ficheiros renomeados.
 _M_STAT_PLAY Reproduzindo o ficheiro \"{1}\"...
 _M_STR_ACTION_CODEPAGE Converter página de código
@@ -401,7 +403,7 @@ _M_STR_ACTION_GUESSSOURCE Formato original
 _M_STR_ACTION_IMPORTCOVER Importar "cover art" do ficheiro
 _M_STR_ACTION_IMPORTCOVER_FS Formatar string para "cover art":
 _M_STR_ACTION_IMPORTCOVER_DELETE &Remover "cover art" existente
-_M_STR_ACTION_IMPORTCOVER_TYPE Import cover as:
+_M_STR_ACTION_IMPORTCOVER_TYPE Importar capa como:
 _M_STR_ACTION_IMPORTTEXT Importar ficheiro de Texto
 _M_STR_ACTION_MERGEDUPLICATEFIELDS Unir campos duplicados
 _M_STR_ACTION_REGEXP Substituir por expressão regular
@@ -412,10 +414,10 @@ _M_STR_ACTION_REM Remover campos
 _M_STR_ACTION_REM_DESC Campos a remover (separados por ponto-e-vírgula):
 _M_STR_ACTION_REM_EX Remover campos excepto
 _M_STR_ACTION_REM_EX_DESC Campos a guardar (separados por ponto-e-vírgula):
-_M_STR_ACTION_SPLITFIELDS Split fields by separator
+_M_STR_ACTION_SPLITFIELDS Dividir campos por separador
 _M_STR_ACTIONGROUP_NAME Nome do grupo de acção
-_M_STR_ALBUM Album
-_M_STR_ALBUMARTIST Album Artist
+_M_STR_ALBUM Álbum
+_M_STR_ALBUMARTIST Artista do Álbum
 _M_STR_ALL_FILEDLGFILTER Todos os ficheiros (*.*)|*.*||
 _M_STR_ARTIST Artista
 _M_STR_AUTHOR Autor
@@ -436,19 +438,19 @@ _M_STR_COMBO_HOLD < manter >
 _M_STR_COMBO_REMOVE < limpar >
 _M_STR_COMBO_USER < inserir >
 _M_STR_COMMENT Comentário
-_M_STR_COMPOSER Composer
+_M_STR_COMPOSER Compositor
 _M_STR_COPYOF Copiar de {1}
 _M_STR_COVER Capa de CD
 _M_STR_COVER_ADD Deseja manter as seguintes capas?
-_M_STR_COVER_CORRECTAR Correct aspect ratio
+_M_STR_COVER_CORRECTAR Aspect ratio correcto
 _M_STR_COVER_SETDESC Definir Decrição de Capas...
 _M_STR_COVER_SETTYPE Definir Tipo de Capa
 _M_STR_COVERVARIES A capa de CD varia
 _M_STR_DAY dia
 _M_STR_DAYS dias
 _M_STR_DISCID ID do CDDB
-_M_STR_DISCOGS_OAUTH_PIN Enter Discogs authorization code
-_M_STR_DISCNUMBER Discnumber
+_M_STR_DISCOGS_OAUTH_PIN Digite o código de autorização Discogs
+_M_STR_DISCNUMBER Disco número
 _M_STR_ERR_CDDB_NOENTRYSELECTED Por favor, seleccione uma entrada.
 _M_STR_EXPORT_DELETE Apagar a configuração exportada \"{1}\"?
 _M_STR_EXPORT_FILEDLGTITLE Seleccionar ficheiro para exportar
@@ -511,7 +513,7 @@ _M_STR_SAVECONFIG_FILEDLGFILTER Ficheiros de configuração (*.zip)|*.zip||
 _M_STR_SAVECONFIG_FILEDLGTITLE Guardar configuração em...
 _M_STR_SAVEIMAGE Gravar imagem na tag
 _M_STR_SAVEIMAGEDIRECTORY Salvar imagem para disco
-_M_STR_SAVESELECTION Save selection...
+_M_STR_SAVESELECTION Guardar selecção...
 _M_STR_SB_ABORTED interrompido
 _M_STR_SB_ACTION Aplicando acções no ficheiro... {1} of {2}
 _M_STR_SB_EXPORTTAGS Exportando informações da tag... {1} of {2}
@@ -530,14 +532,14 @@ _M_STR_SNA_SHOW Exibir permanentemente o ícone na área de notificação
 _M_STR_SNA_SHOWMIN Minimizar para a área de notificação
 _M_STR_TAG_COPIED As tags dos ficheiros {1} foram copiadas para a área de transferência.
 _M_STR_TAG2 Tag
-_M_STR_TAGFIELDS_REMOVE Remove field
-_M_STR_TAGFIELDS_REMOVEALL Remove all fields...
-_M_STR_TAGFIELDS_REMOVEALLMSG Are you sure that you want to remove all fields from the list?
-_M_STR_TAGFIELDS_RESET Reset fields...
-_M_STR_TAGFIELDS_RESETMSG Are you sure that you want to reset the fields list to its default?
+_M_STR_TAGFIELDS_REMOVE Remover campos
+_M_STR_TAGFIELDS_REMOVEALL Remover todos os campos...
+_M_STR_TAGFIELDS_REMOVEALLMSG Tem certeza de que deseja remover todos os campos da lista?
+_M_STR_TAGFIELDS_RESET Redefinir campos...
+_M_STR_TAGFIELDS_RESETMSG Tem certeza de que deseja redefinir a lista de campos para o seu padrão?
 _M_STR_TAGPANEL Painel da Tag 
 _M_STR_TAGPANEL_COVER Ver "cover art"
-_M_STR_TAGPANEL_DIRECTORY Display directory switcher
+_M_STR_TAGPANEL_DIRECTORY Alternar directório de exibição
 _M_STR_TAGLIST_FILEDLGFILTER Lista de tags (*.txt;*.csv)|*.txt; *.csv||
 _M_STR_TAGLIST_FILEDLGTITLE Seleccionar lista de tags
 _M_STR_TAGSOURCES Fontes da Tag
@@ -545,9 +547,9 @@ _M_STR_THISALBUMON Este álbum no {1}
 _M_STR_TITLE Título
 _M_STR_TRYAGAIN Deseja tentar novamente?
 _M_STR_TTF Tag --> Nome do ficheiro
-_M_STR_UPDATE_FRM Updates
-_M_STR_UPDATE_OPT_CHECK Check for updates on startup
-_M_STR_UPDATE_OPT_CHECK_BETA Also include Development Builds (Beta)
+_M_STR_UPDATE_FRM Actualizações
+_M_STR_UPDATE_OPT_CHECK Procurar actualizações no arranque
+_M_STR_UPDATE_OPT_CHECK_BETA Incluir versões Beta (Development Builds)
 _M_STR_UPDATEAVAILABLE Uma nova versão do Mp3tag {1} está disponível!\n\nDeseja fazer o download desta actualização do {2} agora?
 _M_STR_UPDATENOTAVAILABLE Já está a usar a versão mais recente {1}.\n\nNão há actualização disponível.
 _M_STR_URL http://www.mp3tag.de/en/download.html
@@ -579,7 +581,7 @@ _M_TS_ADDINFO Informação Adicional
 _M_TS_MULTIPLEVALUES multiplos valores
 _M_TS_RELEASE Release
 _M_TS_TRACKS &Faixas
-_M_UNDO_CANNOTUNDO Cannot undo {1}
+_M_UNDO_CANNOTUNDO Não é possível anular {1}
 _M_UNDO_CDDB freedb
 _M_UNDO_DIRECTORYCREATE Criar directório
 _M_UNDO_DIRECTORYMOVE Mover directório

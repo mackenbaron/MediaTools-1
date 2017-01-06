@@ -1,6 +1,6 @@
-﻿LANGAUTHOR Veli-Matti Jantunen / Teijo S
-LANGCONTACT VeliMatti<piste>Jantunen<ät>gmail<piste>com / fred.thomas-50ch75r@yopmail.com
-LANGVERSION 2.58
+﻿LANGAUTHOR Veli-Matti Jantunen
+LANGCONTACT VeliMatti<piste>Jantunen<ät>gmail<piste>com
+LANGVERSION 2.79
 LANGNAME Finnish
 LANGNAMELOC Suomi
 SLangCancel &Peruuta
@@ -23,11 +23,11 @@ SLangMsgShutdownInfo Odota {1}:n sulkeutumista.
 SLangWrnAppIsAlreadyRunning Sovellus on jo käynnissä.
 SLangWrnAppHasToBeRestarted Sovellus pitää käynnistää uudestaan, jotta muutokset tulevat voimaan.\n\nHaluatko käynnistää sovelluksen nyt?
 SLangWrnNameContainsInvalidCharacters Kuvauksessa on epäkelpoja merkkejä.\n\n» Poista ne, ole hyvä.
-SLangWrnStartLogging Käynnistit sovelluksen {1} FLOG1-valinnan kanssa, joka on tarkoitettu ohjelmavirheiden jäljitykseen.\n\nHaluatko käyttää sovelluslokia?
+SLangWrnStartLogging Käynnistit sovelluksen {1} FLOG1-määritteellä, joka on tarkoitettu ohjelmavirheiden jäljitykseen.\n\nHaluatko käyttää sovelluslokia?
 _C_ABORT Kumoa
 _C_APP_ST_ALBUM &Levy
 _C_APP_ST_ARTIST &Esittäjä
-_C_APP_ST_COMMENT Ko&mmentti
+_C_APP_ST_COMMENT &Selite
 _C_APP_ST_FOLDER &Kansio
 _C_APP_ST_GENRE &Laji
 _C_APP_ST_TITLE K&appale
@@ -36,7 +36,7 @@ _C_APP_ST_YEAR &Vuosi
 _C_CANCEL &Peruuta
 _C_CLOSE &Sulje
 _C_DLG_CDDBCONFIRM_CAPTION Hakutulokset
-_C_DLG_CDDBCONFIRM_CHK_DISCID Kopioi levytunnus kommenttikenttään
+_C_DLG_CDDBCONFIRM_CHK_DISCID Kopioi levytunnus selitekenttään
 _C_DLG_CDDBCONFIRM_CHK_DISCID2 Kopioi levytunnus levykenttään
 _C_DLG_CDDBCONFIRM_CHK_SAMPLER Kooste
 _C_DLG_CDDBCONFIRM_CHK_SORT Suosituslajittelu
@@ -60,11 +60,11 @@ _C_DLG_TTF_TOP Valitse muotoilurivi
 _C_HELP O&hje
 _C_MNU_ACTIONS Toiminto&ryhmät\tALT+6
 _C_MNU_CON M&uunna
-_C_MNU_CON_FTF Tiedostonimi -> Tiedostonimi\tALT+3
-_C_MNU_CON_FTT Tiedosto&nimi -> Tunniste\tALT+2
-_C_MNU_CON_TFF Tunnistetiedosto -> Tunniste\tALT+4
-_C_MNU_CON_TTF Tunniste -> Tiedostonimi\tALT+1
-_C_MNU_CON_TTT Tunniste -> Tunniste\tALT+5
+_C_MNU_CON_FTF Tiedostonimi -> tiedostonimi\tALT+3
+_C_MNU_CON_FTT Tiedosto&nimi -> tunniste\tALT+2
+_C_MNU_CON_TFF Tunnistetiedosto -> tunniste\tALT+4
+_C_MNU_CON_TTF Tunniste -> tiedostonimi\tALT+1
+_C_MNU_CON_TTT Tunniste -> tunniste\tALT+5
 _C_MNU_EDIT &Muokkaa
 _C_MNU_EDIT_COPY Kopioi\tCtrl+C
 _C_MNU_EDIT_CUT Leikkaa\tCtrl+X
@@ -78,7 +78,7 @@ _C_MNU_EXTRA Työkalut
 _C_MNU_EXTRA_OPTIONS Asetukset\tCtrl+O
 _C_MNU_EXTRA_RESET_EDITS Tyhjennä syötekentät\tCtrl+B
 _C_MNU_EXTRA_SET_EDITS Täytä oletusarvoin\tCtrl+W
-_C_MNU_EXTRA_TRACKWIZARD Numerointiavustaja\tCtrl+K
+_C_MNU_EXTRA_TRACKWIZARD Numerointiapuri\tCtrl+K
 _C_MNU_FILE &Tiedosto
 _C_MNU_FILE_ADD L&isää kansio
 _C_MNU_FILE_CDDB &Tietokanta\tCtrl+I
@@ -136,7 +136,7 @@ _C_MNU_SB_CON_TTF Nimeä tiedostot tunnisteiden mukaan
 _C_MNU_SB_CON_TTT Muotoile tunnisteet niiden perusteella
 _C_MNU_SB_EDIT_COPY Kopioi valittu teksti tai tunniste leikepöydälle
 _C_MNU_SB_EDIT_CUT Leikkaa valittu teksti tai tunniste leikepöydälle
-_C_MNU_SB_EDIT_INVERTSELECTION Vaihda valinta päinvastaiseksi
+_C_MNU_SB_EDIT_INVERTSELECTION Vaihda valinta käänteiseksi
 _C_MNU_SB_EDIT_NEXT Valitse seuraava tiedosto
 _C_MNU_SB_EDIT_PASTE Liitä leikepöydän sisältö
 _C_MNU_SB_EDIT_SELECT Valitse kaikki tiedostot
@@ -145,13 +145,13 @@ _C_MNU_SB_EDIT_UNSELECTALL Poista kaikki valinnat
 _C_MNU_SB_EXTRA_OPTIONS Näytä asetusikkuna
 _C_MNU_SB_EXTRA_RESET_EDITS Tyhjennä tunnisteikkunan syöttökentät
 _C_MNU_SB_EXTRA_SET_EDITS Aseta tunnistekenttiin oletusarvot
-_C_MNU_SB_EXTRA_TRACKWIZARD Käynnistä numerointiavustaja
+_C_MNU_SB_EXTRA_TRACKWIZARD Käynnistä numerointiapuri
 _C_MNU_SB_FILE_ADD Lisää uuden kansion tiedot luetteloon
 _C_MNU_SB_FILE_CDDB Hae CD:n tai valittujen tiedostojen tietoja internetistä
 _C_MNU_SB_FILE_CDDBLOCAL Hae CD:n tai valittujen tiedostojen tietoja paikallisesta tietokannasta
 _C_MNU_SB_FILE_COPY Kopioi valitut tiedostot toiseen kansioon
 _C_MNU_SB_FILE_DELETE Poista valitut tiedostot
-_C_MNU_SB_FILE_DIR Vaihda työkansioa
+_C_MNU_SB_FILE_DIR Vaihda työkansiota
 _C_MNU_SB_FILE_EXIT Lopeta ohjelman käyttö
 _C_MNU_SB_FILE_EXPORT Tallenna kappaleiden tietoja erilliseen tiedostoon
 _C_MNU_SB_FILE_FAVDIR Siirry oletuskansioon
@@ -170,14 +170,16 @@ _C_MNU_SB_FILE_SAVE Tallenna valittujen tiedostojen tunnisteet
 _C_MNU_SB_FILE_SAVECONFIG Tallenna asetukset tiedostoon
 _C_MNU_SB_HELP_ABOUT Tietoja ohjelmasta
 _C_MNU_SB_HELP_CONTEXT Näytä valitun kentän, valikon tai ikkunan ohje
+_C_MNU_SB_HELP_DONATE Ole hyvä, ja harkitse voisitko avustaa Mp3tagin kehittämistä rahallisesti
 _C_MNU_SB_HELP_FINDER Näytä ohjeaiheet
 _C_MNU_SB_HELP_FIRSTSTEPS Pikajohdatus Mp3tag-ohjelmaan
 _C_MNU_SB_HELP_KEYBOARD Näytä pikanäppäinluettelo
 _C_MNU_SB_HELP_SUPPORT Ohjelman keskustelufoorumi
+_C_MNU_SB_HELP_UPGRADE Tarkista onko käytössäsi Mp3tagin tuorein versio
 _C_MNU_SB_HELP_WWW Ohjelman kotisivu
 _C_MNU_SB_UPDIR Siirry yläkansioon
 _C_MNU_SB_VIEW_COLUMNS Muokkaa tiedostonäkymässä näytettäviä sarakkeita
-_C_MNU_SB_VIEW_FILTER Näytä tiedostonäkymässä suodatinpaneeli
+_C_MNU_SB_VIEW_FILTER Näytä suodatinpaneeli tiedostonäkymässä
 _C_MNU_SB_VIEW_ID3 Näytä/piilota tunnisteiden syöttöpaneeli
 _C_MNU_SB_VIEW_REFRESH Päivitä tiedostoluettelo
 _C_MNU_SB_VIEW_TAGS Näytä tunnisteet erillisessä ikkunassa
@@ -193,8 +195,8 @@ _C_OK &OK
 _C_OPT_ACTIONGROUPS Toimintoryhmät
 _C_OPT_ACTIONS Toiminnot
 _C_OPT_ACTIONS_TYPE Toiminto
-_C_OPT_ADVANCED Advanced
-_C_OPT_ADVANCED_ID3V2LANG ID3v2 comment language code (ISO-639-2)
+_C_OPT_ADVANCED Edistyneet
+_C_OPT_ADVANCED_ID3V2LANG ID3v2-selitteen kielikoodi (ISO-639-2)
 _C_OPT_CAPTION Asetukset
 _C_OPT_CDDB_CAPTION tietokanta
 _C_OPT_CDDB_CHK_USEPROXY Käytä välitys&palvelinta
@@ -214,33 +216,33 @@ _C_OPT_CDDB_ST_PWD &Salasana
 _C_OPT_CDDB_ST_TIMEOUT &Odotusaika
 _C_OPT_CDDB_ST_USERNAME &Käyttäjä
 _C_OPT_CDDB3_CAPTION Paikallinen
-_C_OPT_CON_FRM_FTT &Tiedostonimi -> Tunniste
-_C_OPT_CON_FRM_TFF T&unnistetiedosto -> Tunniste
-_C_OPT_CON_FRM_TTF &Tunniste -> Tiedostonimi
+_C_OPT_CON_FRM_FTT &Tiedostonimi -> tunniste
+_C_OPT_CON_FRM_TFF T&unnistetiedosto -> tunniste
+_C_OPT_CON_FRM_TTF &Tunniste -> tiedostonimi
 _C_OPT_CON_ST_FNAME Tiedosto
 _C_OPT_CON_ST_FS Muotoilu
 _C_OPT_DIR Kansiot
-_C_OPT_DIR_COVER Kansikuvien kansio
+_C_OPT_DIR_COVER Kansikuvakansio
 _C_OPT_EMPTY_HINT Valitse aihe
 _C_OPT_EXP_CAPTION Kappaletietojen tallennus
-_C_OPT_EXP_CHK_APPEND Liitä olemassa olevaan tiedostoon
+_C_OPT_EXP_CHK_APPEND Liitä tiedostoon
 _C_OPT_EXP_CHK_WRITEBOM Kirjoita BOM
 _C_OPT_EXP_FRM_EXPORT Tallenna asetukset
 _C_OPT_EXP_RD_TRACK Raita
-_C_OPT_EXP_ST_FNAME Tallennustiedosto
+_C_OPT_EXP_ST_FNAME Vientitiedosto
 _C_OPT_EXP_ST_NAME Vientiasetustiedosto
 _C_OPT_FMT_CASE Muuta kirjainkokoa
-_C_OPT_FMT_FRM_FTF Tiedostonimi -> Tiedostonimi
+_C_OPT_FMT_FRM_FTF Tiedostonimi -> tiedostonimi
 _C_OPT_FMT_ST_BEGIN Sana rajoittuu merkkeihin:
 _C_OPT_FMT_ST_FNAME_NEW Tiedostonimen malli
 _C_OPT_FMT_ST_FNAME_OLD Vanhan tiedostonimen malli
 _C_OPT_FMT2 Korvaa
-_C_OPT_FMT2_CASE Huomioi kirjainkoko vertailussa
+_C_OPT_FMT2_CASE Kirjainkoon mukainen vertailu
 _C_OPT_FMT2_COL_ORIGINAL Alkuperäinen
 _C_OPT_FMT2_COL_REPLACE Korvaava
 _C_OPT_FMT2_ONLYWORDS Vain koko sana
 _C_OPT_GEN_CAPTION Yleiset
-_C_OPT_GEN_CHK_AUTOSAVE &Tallenna nuolinäppäimin tai hiiren napsautuksella
+_C_OPT_GEN_CHK_AUTOSAVE &Tallenna nuolinäppäimin tai hiirtä napauttaen
 _C_OPT_GEN_CHK_FOLDERSTART Käytä aloituskansiona
 _C_OPT_GEN_CHK_GRID Näytä hilaviivat tiedostonäkymässä
 _C_OPT_GEN_CHK_JUMPONEDIT Valitse seuraava tiedosto automaattisesti
@@ -256,9 +258,9 @@ _C_OPT_GEN_CHK_MSG_REMOVETAGS Tunnisteita poistettaessa
 _C_OPT_GEN_CHK_MSG_SAVE Tallennuksen jälkeen
 _C_OPT_GEN_CHK_PL Luo &soittoluettelo automaattisesti
 _C_OPT_GEN_CHK_RELPL Suhteuta työkansioon
-_C_OPT_GEN_CHK_AUTOCOMPLETE Valintojen automaattinen täydennys
-_C_OPT_GEN_CHK_SELECTFILES Select files automatically
-_C_OPT_GEN_CHK_SORTNATURAL Luonnollinen lajittelu
+_C_OPT_GEN_CHK_AUTOCOMPLETE Valintojen automaattitäydennys
+_C_OPT_GEN_CHK_SELECTFILES Tiedostojen automaattivalinta
+_C_OPT_GEN_CHK_SORTNATURAL Tavallinen lajittelu
 _C_OPT_GEN_CHK_TITLESHOWFOLDERPATH &Näytä kansio otsikkorivillä
 _C_OPT_GEN_FRM_GEN Yleiset
 _C_OPT_GEN_FRM_MSG Näytä viestit
@@ -278,7 +280,7 @@ _C_OPT_ID3_FRM_READ Lue
 _C_OPT_ID3_FRM_REMOVE Poista
 _C_OPT_ID3_FRM_WRITE Kirjoita
 _C_OPT_MAPPING Kuvaus
-_C_OPT_MAPPING_FRM Määritellyt kuvaukset 
+_C_OPT_MAPPING_FRM Määritellyt kuvaukset
 _C_OPT_MAPPING_SOURCE Lähde
 _C_OPT_MAPPING_TARGET Kohde
 _C_OPT_PLAYLIST_CAPTION Soittoluettelo
@@ -290,7 +292,7 @@ _C_OPT_TAG_CAPTION Oletusarvot
 _C_OPT_TAG_FRM_TAG Tunnistekenttien oletusarvot (monivalinnassa)
 _C_OPT_TAG_ST_ALBUM &Levy
 _C_OPT_TAG_ST_ARTIST &Esittäjä
-_C_OPT_TAG_ST_COMMENT &Kommentti
+_C_OPT_TAG_ST_COMMENT &Selite
 _C_OPT_TAG_ST_GENRE &Laji
 _C_OPT_TAG_ST_TITLE &Kappale
 _C_OPT_TAG_ST_TRACK &Raita
@@ -298,13 +300,13 @@ _C_OPT_TAG_ST_YEAR &Vuosi
 _C_OPT_TAGS_COVER Kansikuvan oletusnimi
 _C_OPT_TAGS_EXT Tunnisteikkunan tallennustapa <<- ja >>-painikkeilla
 _C_OPT_TAGS_FILEFILTER Luettavat tiedostotyypit
-_C_OPT_TAGS_NOIMG &Älä käytä kansiosta löytyvää kuvaa kansikuvana.
+_C_OPT_TAGS_NOIMG &Älä käytä kansiosta löytyvää kuvaa kansikuvana
 _C_OPT_TOOLS Työkalut
 _C_OPT_TOOLS_CHK_DEFAULT Kaksoisnapsautus avaa ulkoisen ohjelman
 _C_OPT_TOOLS_CHK_MULTIPLEINSTANCES Kaikille valituille tiedostoille
-_C_OPT_TOOLS_COL_PARAM Parametrit
+_C_OPT_TOOLS_COL_PARAM Määritteet
 _C_OPT_TOOLS_COL_PATH Polku
-_C_OPT_TOOLS_EDIT Muokkausohjelma; nimi ja polku ovat pakolliset.
+_C_OPT_TOOLS_EDIT Nimi ja polku ovat muokkausohjelmassa pakolliset
 _C_OPT_TOOLS_FRM_DEFAULT Oletustyökalu
 _C_OPT_TOOLS_FRM_TOOLS Työkalut
 _C_OVERWRITE &Korvaa
@@ -323,8 +325,8 @@ _C_TT_FILE_MOVE Siirrä kansioon
 _C_TT_FILE_PLAY Toista
 _C_TT_FILE_PROPERTIES Ominaisuudet
 _C_TT_FILE_RENAME Nimeä
-_C_TT_FTF Tiedostonimi -> Tiedostonimi
-_C_TT_FTT Tiedostonimi -> Tunnisteet
+_C_TT_FTF Tiedostonimi -> tiedostonimi
+_C_TT_FTT Tiedostonimi -> tunnisteet
 _C_TT_HELP Sisällysluettelo
 _C_TT_OPT Asetukset
 _C_TT_PLALL Luo soittoluettelo kaikista tiedostoista
@@ -332,18 +334,18 @@ _C_TT_PLSEL Luo soittoluettelo valituista tiedostoista
 _C_TT_REFRESH Päivitä tiedostonäkymä
 _C_TT_REMOVE Poista tunniste
 _C_TT_SAVE Tallenna
-_C_TT_TFF Tunnistetiedosto -> Tunnisteet
-_C_TT_TTF Tunnisteet -> Tiedostonimi
-_C_TT_TTT Tunniste -> Tunniste
+_C_TT_TFF Tunnistetiedosto -> tunnisteet
+_C_TT_TTF Tunnisteet -> tiedostonimi
+_C_TT_TTT Tunniste -> tunniste
 _C_TT_UPDIR Ylempään kansioon
-_C_WIZARD_TRACKS Numerointiavustaja
+_C_WIZARD_TRACKS Numerointiapuri
 _C_WIZARD_TRACKS_BEGIN Aloita raidasta
 _C_WIZARD_TRACKS_RESETFOLDERS Numeroi kansioittain
 _C_WIZARD_TRACKS_SAVETOTAL Tallenna raitojen määrä
-_M_ERR_CANCEL Toiminto peruutettu.
-_M_ERR_CDDB_CD Virhe luettaessa CD:tä
-_M_ERR_CDDB_CONNECT Yhteydenotto palvelimeen {1} ei onnistu
-_M_ERR_CDDB_NOENTRY tietokantapalvelimelta {1} ei löytynyt sopivia tietoja
+_M_ERR_CANCEL Toiminto kumottu.
+_M_ERR_CDDB_CD CD:n lukeminen ei onnistu.
+_M_ERR_CDDB_CONNECT Yhteydenotto palvelimeen {1} ei onnistu.
+_M_ERR_CDDB_NOENTRY tietokantapalvelimelta {1} ei löytynyt sopivia tietoja.
 _M_ERR_CDDB_NOENTRYINLOCALBD Paikallisen tietokantapalvelimen {1} tietokannasta '{2}' ei löytynyt sopivia tietoja.
 _M_ERR_CDDB_PARSER Haku ei tuottanut yhtään tulosta.
 _M_ERR_CDDB_READ Tietojen luku lähteestä {1} ei onnistu.
@@ -365,7 +367,7 @@ _M_ERR_MOVE Tiedostojen siirto ei onnistu!
 _M_ERR_NO_HEADER MPEG-tunnistetta ei löytynyt tiedostosta "{1}".
 _M_ERR_ONLINE_NOTFOUND Haku ei tuottanyt yhtään tulosta.
 _M_ERR_OPT_CDDB_NOADDRESS Anna tietokantapalvelimen osoite.
-_M_ERR_OPT_CDDB_NOEMAIL Anna sähköpostiosoitteesi kohdassa 'Asetukset -> Tietokanta -> Palvelin', sillä  sitä tarvitaan tietokantapalvelimeen kirjauduttaessa.
+_M_ERR_OPT_CDDB_NOEMAIL Anna sähköpostiosoitteesi kohdassa 'Asetukset -> Tietokanta -> Palvelin', sillä sitä tarvitaan tietokantapalvelimeen kirjauduttaessa.
 _M_ERR_OPT_CDDB_NONAME Anna asetustiedostolle oikeanmuotoinen nimi.
 _M_ERR_OPT_CDDB_NOPORT Anna tietokantapalvelimen portin numero.
 _M_ERR_PARSELINE Rivin {1} tulkinta ei onnistunut.
@@ -375,20 +377,20 @@ _M_ERR_RENAME_FILE Tiedoston "{1}" nimeäminen tiedostoksi "{2}" ei onnistu.
 _M_ERR_TL_NOTAGS Tiedostossa "{1}" ei ole tarpeeksi tunnisteita.\n\n
 _M_ERR_WRITE_FILE Tiedostoon "{1}" ei voi kirjoittaa. 
 _M_ERR_YN \n\nJatketaanko?
-_M_LOG_FMT_FNAME {1}/{2} tiedostoa nimettiin.\n
-_M_LOG_FMT_TAG {1}/{2} tunnistetta alustettiin.\n
-_M_LOG_FTF {1}/{2} tiedostoa nimettiin.
-_M_LOG_FTT Tunnisteet haettiin {1}/{2} tiedostosta.
-_M_LOG_PL_ALL Soittoluettelo "{1}" luotiin kaikista ({2}) tiedostoista.
-_M_LOG_PL_SEL Soittoluettelo "{1}" luotiin valituista ({2}) tiedostoista.
-_M_LOG_REMOVE Tunnisteet poistettiin tiedostosta "{1}".
-_M_LOG_REMOVED Tunnisteet poistettiin {1}/{2} tiedostosta.
+_M_LOG_FMT_FNAME Nimettiin {1}/{2} tiedostoa.\n
+_M_LOG_FMT_TAG Alustettiin {1}/{2} tunnistetta.\n
+_M_LOG_FTF Nimettiin {1}/{2} tiedostoa.
+_M_LOG_FTT Haettiin tunnisteet {1}/{2} tiedostosta.
+_M_LOG_PL_ALL Luotiin soittoluettelo "{1}" kaikista ({2}) tiedostoista.
+_M_LOG_PL_SEL Luotiin soittoluettelo "{1}" valituista ({2}) tiedostoista.
+_M_LOG_REMOVE Poistettiin tunnisteet tiedostosta "{1}".
+_M_LOG_REMOVED Poistettiin tunnisteet {1}/{2} tiedostosta.
 _M_LOG_REMOVE_NOTAG Tiedostossa "{1}" ei ole tunnisteita.
-_M_LOG_SAVE Tunnisteet tallennettiin tiedostoon "{1}".
-_M_LOG_SAVED Tunnisteet tallennettiin {1}/{2} tiedostoon.
-_M_LOG_TFF Tunnisteet haeettiin tiedostosta "{1}" ja tallennettu {2} / {3} tiedostoon.
+_M_LOG_SAVE Tallennettiin tunnisteet tiedostoon "{1}".
+_M_LOG_SAVED Tallennettiin tunnisteet {1}/{2} tiedostoon.
+_M_LOG_TFF Haettiin tunnisteet tiedostosta "{1}" ja tallennettiin {2}/{3} tiedostoon.
 _M_LOG_TFF_S Haettiin tunnisteet \"{1}\" yhdeksi tiedostoksi.
-_M_LOG_TTF {1} / {2} tiedostoa nimetty.
+_M_LOG_TTF Nimettiin {1}/{2} tiedostoa.
 _M_STAT_PLAY Toistetaan tiedostoa \"{1}\"
 _M_STR_ACTION_CODEPAGE Muunna merkistö
 _M_STR_ACTION_CODEPAGE_DESC Merkistö
@@ -396,7 +398,7 @@ _M_STR_ACTION_EXPORTCOVER Tallenna kansi
 _M_STR_ACTION_EXPORTCOVER_DUPES Tuo toisteiset kannet
 _M_STR_ACTION_FORMAT Alusta arvo
 _M_STR_ACTION_GUESS Arvaa arvot
-_M_STR_ACTION_GUESSPATTERN Arvaa malli
+_M_STR_ACTION_GUESSPATTERN Päättele malli
 _M_STR_ACTION_GUESSSOURCE Lähteen muoto
 _M_STR_ACTION_IMPORTCOVER Tuo kansi tiedostosta
 _M_STR_ACTION_IMPORTCOVER_FS Kuvatiedoston nimen muoto
@@ -425,7 +427,7 @@ _M_STR_BROWSE_MOVE Siirrä
 _M_STR_BROWSE_TEXT Valitse äänitiedostoja sisältävä kansio
 _M_STR_BYTES Tavua
 _M_STR_CDDB_CD Lue ääni-CD
-_M_STR_CDDB_CONNECT Yhdistetään: {1}
+_M_STR_CDDB_CONNECT Yhdistetään: {1}...
 _M_STR_CDDB_CONNECTED Yhdistetty!
 _M_STR_CDDB_IDXDB_ENTRIES Tiedot on viety kantaan
 _M_STR_CDDB_RETRIEVE Hae kappaleiden tiedot
@@ -435,7 +437,7 @@ _M_STR_COLUMNUSEDCOLS Näytetty
 _M_STR_COMBO_HOLD < jätä >
 _M_STR_COMBO_REMOVE < tyhjä >
 _M_STR_COMBO_USER < syötä >
-_M_STR_COMMENT Kommentti
+_M_STR_COMMENT Selite
 _M_STR_COMPOSER Säveltäjä
 _M_STR_COPYOF {1}:n kopio
 _M_STR_COVER Kansi
@@ -444,26 +446,26 @@ _M_STR_COVER_CORRECTAR Oikea kuvasuhde
 _M_STR_COVER_SETDESC Kannen kuvaus
 _M_STR_COVER_SETTYPE Kannen tyyppi
 _M_STR_COVERVARIES Useita kansia
-_M_STR_DAY Päivät
+_M_STR_DAY Päivä
 _M_STR_DAYS Päivät
 _M_STR_DISCID CDDB-tunnus
-_M_STR_DISCOGS_OAUTH_PIN Enter Discogs authorization code
+_M_STR_DISCOGS_OAUTH_PIN Syötä Discogs-tunniste
 _M_STR_DISCNUMBER Levyn numero
 _M_STR_ERR_CDDB_NOENTRYSELECTED Ole hyvä ja valitse
-_M_STR_EXPORT_DELETE Poistetaanko "{1}" -vientiasetukset?
+_M_STR_EXPORT_DELETE Poistetaanko "{1}"-vientiasetukset?
 _M_STR_EXPORT_FILEDLGTITLE Valitse vientitiedosto
 _M_STR_EXPORT_MULTIPLE Vain yksi tiedosto kansioon
 _M_STR_EXPORT_SHOWEXPORTFILE \n\nAvataanko tiedosto katselua varten?
 _M_STR_EXP_MSG Tiedot {2} tiedostosta on tallennettu tiedostoon '{1}'.
 _M_STR_FIELD Kenttä
 _M_STR_FILE Tiedosto
-_M_STR_FILEDELETE Poistetaanko kaikki valitut tiedostot?
+_M_STR_FILEDELETE Poistetaanko valitut tiedostot?
 _M_STR_FILEMODIFIED Muokattu
 _M_STR_FILESIZE Koko
 _M_STR_FILTER Suodata
-_M_STR_FMT_CAPITAL Isot ja pienet kirjaimet
-_M_STR_FMT_HIGH ISOT kirjaimet
-_M_STR_FMT_LOW pienet kirjaimet
+_M_STR_FMT_CAPITAL Sekamuoto
+_M_STR_FMT_HIGH SUURaakkosin
+_M_STR_FMT_LOW pienaakkosin
 _M_STR_FMT_SENTENCE Lause
 _M_STR_FREEDBCREATEINDEX Luodaanko paikallinen tietokanta?\n\nTämä voi kestää jonkin aikaa.
 _M_STR_FREEDB_SEARCH Tietokantahaku
@@ -479,7 +481,7 @@ _M_STR_MOVEDOWN Siirrä &alas
 _M_STR_MOVEUP Siirrä &ylös
 _M_STR_MPEGBITRATE Bittivirtanopeus
 _M_STR_MPEGFREQUENCY Taajuus
-_M_STR_MPEGLENGTH Pituus
+_M_STR_MPEGLENGTH Kesto
 _M_STR_MPEGMODE Tila
 _M_STR_MPEGVERSION Koodekki
 _M_STR_MSGCUT Poistetaanko tunniste ja siirretään se leikepöydälle?
@@ -489,7 +491,7 @@ _M_STR_NAME Nimi
 _M_STR_NETWORKING Verkko
 _M_STR_NEXT &Seuraava >
 _M_STR_NOACTION -= Ei toimintoa =-
-_M_STR_NOACTIONENABLED Valitse vähintään yksi toiminto.
+_M_STR_NOACTIONENABLED Valitse ainakin yksi toiminto.
 _M_STR_NUMERIC Numeerinen
 _M_STR_OPT_CDDB_BROWSE_LOCALPATH Valitse paikallisen tietokannan kansio.
 _M_STR_OPT_CDDB_PROCEED Tämä poistaa kaikki käytöstä palvelintietokannat!\n\nJatketaanko?\n
@@ -497,7 +499,7 @@ _M_STR_OPTIMIZEMP4 Optimoi MP4
 _M_STR_OPTS_ALWAYS Aina
 _M_STR_OPTS_ASK Kysy
 _M_STR_OPTS_NEVER Ei koskaan
-_M_STR_PLNAME Soittoluettelo -> Tiedostonimi
+_M_STR_PLNAME Soittoluettelo -> tiedostonimi
 _M_STR_PL_CONFIRM Anna soittoluettelotiedoston nimi
 _M_STR_PL_SAVEFILTER Soittoluettelo (*.m3u)|*.m3u|Soittoluettelo (Unicode) (*.m3u8)|*.m3u8||
 _M_STR_PREVIEW Esikatselu
@@ -513,13 +515,13 @@ _M_STR_SAVEIMAGE Tallenna kuva tunnisteeksi
 _M_STR_SAVEIMAGEDIRECTORY Tallenna kuva tiedostoksi
 _M_STR_SAVESELECTION Tallenna valinta
 _M_STR_SB_ABORTED Peruttu
-_M_STR_SB_ACTION Muutetaan tiedostoja {1} / {2}
-_M_STR_SB_EXPORTTAGS Viedään tunnistetietoja {1} / {2}
-_M_STR_SB_LOADTAGS Luetaan tunnisteita {1} / {2}
+_M_STR_SB_ACTION Muutetaan tiedostoja {1}/{2}
+_M_STR_SB_EXPORTTAGS Viedään tunnistetietoja {1}/{2}
+_M_STR_SB_LOADTAGS Luetaan tunnisteita {1}/{2}
 _M_STR_SB_READDIRECTORY Luetaan kansiota
-_M_STR_SB_REMOVETAGS Poistetaan tunnistetietoja. {1} / {2}
-_M_STR_SB_RENAMEFILES Nimetään tiedostoja {1} / {2}
-_M_STR_SB_WRITETAGS Kirjoitetaan tunnistetietoja {1} / {2}
+_M_STR_SB_REMOVETAGS Poistetaan tunnistetietoja {1}/{2}
+_M_STR_SB_RENAMEFILES Nimetään tiedostoja {1}/{2}
+_M_STR_SB_WRITETAGS Kirjoitetaan tunnistetietoja {1}/{2}
 _M_STR_SHOWCHOOSEDLG Näytä valintaikkuna
 _M_STR_SEARCHBY Etsi nimellä:
 _M_STR_SEARCHTEXT Hakuteksti
@@ -543,8 +545,8 @@ _M_STR_TAGLIST_FILEDLGTITLE Valitse tunnistetiedosto
 _M_STR_TAGSOURCES Tietolähteet
 _M_STR_THISALBUMON Levy {1}:ssä
 _M_STR_TITLE Kappale
-_M_STR_TRYAGAIN Yritetäänkö toimintoa uudestaan?
-_M_STR_TTF Tunnisteet -> Tiedostonimi
+_M_STR_TRYAGAIN Kokeillaanko uudestaan?
+_M_STR_TTF Tunnisteet -> tiedostonimi
 _M_STR_UPDATE_FRM Päivitykset
 _M_STR_UPDATE_OPT_CHECK Tarkista päivitykset käynnistettäessä
 _M_STR_UPDATE_OPT_CHECK_BETA Sisällytä myös kehitysversiot
@@ -584,12 +586,12 @@ _M_UNDO_CDDB Tietokantahaku
 _M_UNDO_DIRECTORYCREATE Kansion luonti
 _M_UNDO_DIRECTORYMOVE Kansion siirto
 _M_UNDO_FORMAT Alustus
-_M_UNDO_FTF Tiedostonimi -> Tiedostonimi
-_M_UNDO_FTT Tiedostonimi -> Tunnisteet
+_M_UNDO_FTF Tiedostonimi -> tiedostonimi
+_M_UNDO_FTT Tiedostonimi -> tunnisteet
 _M_UNDO_REMOVEFILE Poisto
 _M_UNDO_RENAME Nimeäminen
 _M_UNDO_TAGCHANGE Tunnisteen muutos
 _M_UNDO_TAGREMOVE Tunnisteen poisto
 _M_UNDO_TAGSAVE Tunnistetallennus
-_M_UNDO_TFF Tunnistetiedosto -> Tunnisteet
-_M_UNDO_TTF Tunnisteet -> Tiedostonimi
+_M_UNDO_TFF Tunnistetiedosto -> tunnisteet
+_M_UNDO_TTF Tunnisteet -> tiedostonimi

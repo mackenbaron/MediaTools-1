@@ -1,5 +1,5 @@
     SMPlayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2015 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2006-2016 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -97,3 +97,7 @@
 
      * http://www.pd4pic.com/anaglyph-3d-cellophane-glasses-3dimensional-movie.html
        license: Public Domain CC0
+
+     * The animations src/default-theme/buffering.gif and src/default-theme/pl_loading.gif
+       were created at http://www.ajaxload.info/
+       license: Do What The Fuck You Want To Public License (http://www.wtfpl.net)

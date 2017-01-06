@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Luca Snoriguzzi
 LANGCONTACT luca@lucaweb.eu
-LANGVERSION 2.74
+LANGVERSION 2.79
 LANGNAME Italian
 LANGNAMELOC Italiano
 SLangCancel &Annulla
@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Salva i Tag ID3 nei file selezionati.
 _C_MNU_SB_FILE_SAVECONFIG Salva le impostazioni attuali in un file.
 _C_MNU_SB_HELP_ABOUT Informazioni su Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Visualizza l'aiuto sui campi selezionati, menù e finestre.
+_C_MNU_SB_HELP_DONATE Considera una donazione per sostenere lo sviluppo di Mp3tag.
 _C_MNU_SB_HELP_FINDER Elenca i contenuti della Guida.
 _C_MNU_SB_HELP_FIRSTSTEPS Visualizza una breve introduzione a Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Visualizza la lista dei collegamenti rapidi da tastiera (HotKey).
 _C_MNU_SB_HELP_SUPPORT Vai al forum di Mp3tag.
+_C_MNU_SB_HELP_UPGRADE Controlla aggiornamenti di Mp3tag
 _C_MNU_SB_HELP_WWW Vai al sito di Mp3tag.
 _C_MNU_SB_UPDIR Passa alla cartella superiore.
 _C_MNU_SB_VIEW_COLUMNS Visualizza una finestra di dialogo, nella quale le colonne della lista file possono essere configurate.

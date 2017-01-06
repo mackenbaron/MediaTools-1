@@ -3,7 +3,7 @@
 
    INHALT 
 
-      1. ÜBER MP3TAG v2.75
+      1. ÜBER MP3TAG v2.78
       2. VERTRIEB, COPYRIGHT
       3. INSTALLATION
       4. KONTAKT MIT DEM AUTOR
@@ -14,10 +14,10 @@
 
 
   ------------------------------------------------------------------------
-   1. ÜBER MP3TAG v2.75
+   1. ÜBER MP3TAG v2.78
   ------------------------------------------------------------------------
 
-   Dies ist die Version v2.75 des universellen Tag Editors Mp3tag.
+   Dies ist die Version v2.78 des universellen Tag Editors Mp3tag.
 
    Mp3tag ist ein Hilfsprogramm mit vielen Features, das Ihnen bei
    der Verwaltung ihrer MP3-Dateien assistiert. Es kann ID3-Tags in
@@ -50,26 +50,26 @@
    2. VERTRIEB, COPYRIGHT
   ------------------------------------------------------------------------
 
-   Mp3tag v2.75 Copyright ©1999-2016 Florian Heidenreich
+   Mp3tag v2.78 Copyright ©1999-2016 Florian Heidenreich
 
-   Mp3tag v2.75 darf sowohl im privaten als auch im kommerziellen Umfeld
+   Mp3tag v2.78 darf sowohl im privaten als auch im kommerziellen Umfeld
    ohne Bezahlung eingesetzt werden ("Freeware"), solange die folgenden
    Einschränkungen beachtet werden:
 
    Der Autor Florian Heidenreich übernimmt keinerlei Haftung für Fehler,
    die direkt oder indirekt aus der Benutzung dieser Software entstehen.
 
-   Mp3tag v2.75 darf weder für militärische Anwendungen noch für verwandte
+   Mp3tag v2.78 darf weder für militärische Anwendungen noch für verwandte
    Zwecke (Waffenentwicklung, Rüstung, usw.) verwendet werden.
 
-   Mp3tag v2.75 darf auf nichtkommerziellem Weg frei verteilt werden,
+   Mp3tag v2.78 darf auf nichtkommerziellem Weg frei verteilt werden,
    falls die Verteilung in Form der vorliegenden selbstextrahierenden
-   Setup-Datei 'mp3tagv275setup.exe' erfolgt.
+   Setup-Datei 'mp3tagv278setup.exe' erfolgt.
 
-   Mp3tag v2.75 darf auf kommerziellem Weg nur dann verteilt werden,
+   Mp3tag v2.78 darf auf kommerziellem Weg nur dann verteilt werden,
    falls der Autor Florian Heidenreich der Verteilung ausdrücklich zustimmt
    und falls die Verteilung in Form der vorliegenden selbstextrahierenden
-   Setup-Datei 'mp3tagv275setup.exe' erfolgt.
+   Setup-Datei 'mp3tagv278setup.exe' erfolgt.
 
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 

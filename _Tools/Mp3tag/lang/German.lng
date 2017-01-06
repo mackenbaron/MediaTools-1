@@ -170,11 +170,13 @@ _C_MNU_SB_FILE_SAVE Speichert den Tag in ausgewählten Dateien.
 _C_MNU_SB_FILE_SAVECONFIG Aktuelle Einstellungen im Optionendialog in eine Datei speichern.
 _C_MNU_SB_HELP_ABOUT Info über Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Zeigt Hilfe zu angeklickten Schaltflächen, Menüs und Fenstern.
+_C_MNU_SB_HELP_DONATE Bitte unterstützen Sie die Weiterentwicklung von Mp3tag.
 _C_MNU_SB_HELP_FINDER Listet die Hilfethemen auf.
 _C_MNU_SB_HELP_FIRSTSTEPS Zeigt eine kurze Einführung in Mp3tag an.
 _C_MNU_SB_HELP_KEYBOARD Zeigt die Liste der Tastaturkürzeln an.
-_C_MNU_SB_HELP_SUPPORT Wechselt zu den Mp3tag-Foren.
-_C_MNU_SB_HELP_WWW Wechselt zur Mp3tag Website.
+_C_MNU_SB_HELP_SUPPORT Öffnet das Mp3tag Forum.
+_C_MNU_SB_HELP_UPGRADE Prüft auf Updates für Mp3tag.
+_C_MNU_SB_HELP_WWW Öffnet die Mp3tag Website.
 _C_MNU_SB_UPDIR Wechselt in das übergeordnete Verzeichnis.
 _C_MNU_SB_VIEW_COLUMNS Zeigt einen Dialog an, in dem die Spalten der Dateiansicht konfiguriert werden können.
 _C_MNU_SB_VIEW_FILTER Filtert die Dateiansicht nach bestimmten Kriterien.

@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Zapisuje znaczniki w zaznaczonych plikach.
 _C_MNU_SB_FILE_SAVECONFIG Zapisuje bieżące ustawienia w pliku ustawień.
 _C_MNU_SB_HELP_ABOUT Informacje na temat Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Pokazuje pomoc kontekstową dla „klikniętych” pól, menu i okien.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Spis treści
 _C_MNU_SB_HELP_FIRSTSTEPS Wyświetla krótkie wprowadzenie do Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Wyświetla listę skrótów klawiszowych.
 _C_MNU_SB_HELP_SUPPORT Przechodzi na stronę forum Mp3tag.
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Przechodzi na stronę WWW Mp3tag.
 _C_MNU_SB_UPDIR Przechodzi do katalogu nadrzędnego
 _C_MNU_SB_VIEW_COLUMNS Pokazuje okno, w którym można dostosować kolumny w widoku plików.

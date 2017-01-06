@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Sačuvati etiketu u odabrane datoteke.
 _C_MNU_SB_FILE_SAVECONFIG Sačuvati podešavanje u datoteci.
 _C_MNU_SB_HELP_ABOUT Informacije o Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Pokazati kontekstni pomoć za kliknutih polja, limiji i prozora.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Sadržaj pomoća ...
 _C_MNU_SB_HELP_FIRSTSTEPS Pokazati kratki opis Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Pokaži listu prečica.
 _C_MNU_SB_HELP_SUPPORT Ići na Mp3tag forumi..
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Ići na Mp3tag stranicu.
 _C_MNU_SB_UPDIR Jedna fascikla manje
 _C_MNU_SB_VIEW_COLUMNS Pokazati dijalog gde kolone, za izgled datoteke, mogu biti podesane.

@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Įrašyti pažymėtų failų gaires.
 _C_MNU_SB_FILE_SAVECONFIG Įrašyti esamas nuostatas į programos konfigūracijos failą.
 _C_MNU_SB_HELP_ABOUT Išsamiau, apie programą Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Rodyti kontekstinę pagalbą nurodytiems laukeliams, meniu ir langams.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Parodyti žinyno temų sąrašą.
 _C_MNU_SB_HELP_FIRSTSTEPS Parodyti trumpą įžangą apie programą Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Rodyti sparčiųjų klavišų sąrašą.
 _C_MNU_SB_HELP_SUPPORT Eiti į Mp3tag forumą.
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Eiti į Mp3tag svetainę.
 _C_MNU_SB_UPDIR Pereiti į aukštesnio lygio aplanką.
 _C_MNU_SB_VIEW_COLUMNS Rodyti failų peržiūros juostos nuostatų langą.

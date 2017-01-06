@@ -1,4 +1,42 @@
 ------------  -------------------------------------------------------------------------------------
+[2016-09-24]  REL: VERSION 2.79 (for Windows 10/8.1/8/7/2008/Vista/2003/XP SP3)
+------------  -------------------------------------------------------------------------------------
+[2016-09-22]  LNG: updated Dutch, Finnish, Hebrew, and Spanish language files.
+[2016-09-22]  FIX: Wine's long path prefix \\?\ was not handled correctly.
+[2016-09-22]  CHG: Wine-based Mp3tag.app is now signed using a verified Developer Certificate as required by macOS Sierra. 
+[2016-09-22]  FIX: displaying tooltips for very long texts in Tag Panel input fields blocked UI.
+[2016-09-08]  FIX: converter 'Tag - Filename' had problems with relative paths (since 2.78a).
+[2016-09-03]  FIX: converter 'Tag - Filename' produced in some cases file names which started with one backslash.
+[2016-08-22]  FIX: preview for converter 'Tag - Filename' displayed wrong file names in some rare cases.
+[2016-07-08]  FIX: information for 32-bit WAV was not displayed. 
+[2016-07-08]  FIX: changing the Filter was possible even if files were currently loading.
+------------  -------------------------------------------------------------------------------------
+[2016-06-25]  REL: VERSION 2.78 (for Windows 10/8.1/8/7/2008/Vista/2003/XP SP3)
+------------  -------------------------------------------------------------------------------------
+[2016-06-19]  NEW: added support for AIF/AIFC/AIFF files with ID3v2 tags.
+[2016-05-18]  FIX: addressed occasional Tag Panel repaint issue.
+[2016-05-17]  NEW: added support for ITUNESOWNER field that reports the user name from the iTunes Store.
+[2016-05-13]  CHG: modified setup to not create start-menu shortcut to uninstaller on new installs.
+[2016-04-24]  FIX: samplerate for some MP4 files was not reported correctly.
+------------  -------------------------------------------------------------------------------------
+[2016-04-23]  REL: VERSION 2.77 (for Windows 10/8.1/8/7/2008/Vista/2003/XP SP3)
+------------  -------------------------------------------------------------------------------------
+[2016-04-22]  LNG: updated Hungarian, Italian and Russian language files.
+[2016-04-21]  FIX: runtime error when tagging FLAC files on computers with older CPUs (e.g, Pentium III, Athlon XP, ...) (since 2.76).
+[2016-04-20]  FIX: runtime error that appeared with some installations when displaying the file list (since 2.76).
+[2016-04-18]  FIX: samplerate for some MP4 files was not reported. 
+[2016-04-17]  FIX: action import cover from file did not expand all placeholders and scripting functions in some cases (since 2.76).
+------------  -------------------------------------------------------------------------------------
+[2016-04-16]  REL: VERSION 2.76 (for Windows 10/8.1/8/7/2008/Vista/2003/XP SP3)
+------------  -------------------------------------------------------------------------------------
+[2016-04-11]  FIX: action import cover from file did not work if explicitly selected filename contained special characters that are part of the scripting language.
+[2016-04-11]  FIX: keyboard shortcuts for navigating to previous and next directory history entry were not working anymore (since 2.74)
+[2016-04-11]  LNG: updated Bulgarian, Czech, Japanese and Portuguese language files.
+[2016-04-10]  NEW: added support for WAV files for Explorer context menu shell extension.
+[2016-04-10]  FIX: revised status bar messages.
+[2016-04-07]  NEW: added support for WAV files with INFO tags and ID3v2 tags.
+[2016-03-28]  FIX: cover art of previously selected files was still displayed even after directory change (Wine-only)
+------------  -------------------------------------------------------------------------------------
 [2016-02-20]  REL: VERSION 2.75 (for Windows 10/8.1/8/7/2008/Vista/2003/XP SP3)
 ------------  -------------------------------------------------------------------------------------
 [2016-02-19]  LNG: added Corsican language file and updated Japanese language file.

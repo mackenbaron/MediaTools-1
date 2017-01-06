@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Kiss Viktor, www.naptargyar.hu
 LANGCONTACT fablesajt@freemail.hu, www.naptargyar.hu
-LANGVERSION 2.62
+LANGVERSION 2.79
 LANGNAME Hungarian
 LANGNAMELOC Magyar
 SLangCancel &Mégse
@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Címke mentése a kijelölt fájl(ok)ba.
 _C_MNU_SB_FILE_SAVECONFIG Aktuális beállítások mentése egy konfigurációs fájlba.
 _C_MNU_SB_HELP_ABOUT Az Mp3tag névjegye.
 _C_MNU_SB_HELP_CONTEXT A kijelölt mezők, menük, és ablakok helyi menüjének megjelenítése.
+_C_MNU_SB_HELP_DONATE Kérem, támogassa adományaival az MP3tag fejlesztését.
 _C_MNU_SB_HELP_FINDER Súgó tartalom...
 _C_MNU_SB_HELP_FIRSTSTEPS Egy rövid bemutató az Mp3tag-ról.
 _C_MNU_SB_HELP_KEYBOARD Gyorsbillentyűk listájának megjelenítése.
 _C_MNU_SB_HELP_SUPPORT Ugrás az Mp3tag fórumra..
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Ugrás az Mp3tag weblapra.
 _C_MNU_SB_UPDIR Váltás eggyel fentebbi könyvtárba.
 _C_MNU_SB_VIEW_COLUMNS Megjelenít egy ablakot, ahol a fájllista oszlopai testreszabhatóak. 
@@ -193,8 +195,8 @@ _C_OK &Ok
 _C_OPT_ACTIONGROUPS Csoport akciók
 _C_OPT_ACTIONS Akciók
 _C_OPT_ACTIONS_TYPE Akció típus kiválasztása
-_C_OPT_ADVANCED Advanced
-_C_OPT_ADVANCED_ID3V2LANG ID3v2 comment language code (ISO-639-2)
+_C_OPT_ADVANCED Haladó
+_C_OPT_ADVANCED_ID3V2LANG ID3v2 megjegyzés nyelvi kód (ISO-639-2)
 _C_OPT_CAPTION Beállítások
 _C_OPT_CDDB_CAPTION freedb
 _C_OPT_CDDB_CHK_USEPROXY Pr&oxy használat
@@ -257,7 +259,7 @@ _C_OPT_GEN_CHK_MSG_SAVE mentés után
 _C_OPT_GEN_CHK_PL &Lejátszási lista készítése automatikusan
 _C_OPT_GEN_CHK_RELPL Relatív bejegyzések a munkakönyvtárból
 _C_OPT_GEN_CHK_AUTOCOMPLETE Automatikus-befejezés a kiválasztó-dobozokhoz
-_C_OPT_GEN_CHK_SELECTFILES Select files automatically
+_C_OPT_GEN_CHK_SELECTFILES Fájlok automatikus kiválasztása
 _C_OPT_GEN_CHK_SORTNATURAL Természetes rendezés használata
 _C_OPT_GEN_CHK_TITLESHOWFOLDERPATH &Aktuális elérési út megjelenítése a címsorban
 _C_OPT_GEN_FRM_GEN Általános

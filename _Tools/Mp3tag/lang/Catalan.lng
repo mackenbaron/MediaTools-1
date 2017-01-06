@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Guardar tags en l'arxiu seleccionat.
 _C_MNU_SB_FILE_SAVECONFIG Guardar configuració actual en un arxiu de configuració.
 _C_MNU_SB_HELP_ABOUT Informació sobre Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Veure ajuda contextual de camps seleccionats, menús i finiestres.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Temes de ajuda ...
 _C_MNU_SB_HELP_FIRSTSTEPS Veure introducció a Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Mostra llista de dreçeres de teclat.
 _C_MNU_SB_HELP_SUPPORT Anar als fors de discussió de Mp3tag..
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Anar a la pàgina web de Mp3tag.
 _C_MNU_SB_UPDIR Canviar a la carpeta superior
 _C_MNU_SB_VIEW_COLUMNS Obrir finestra per a personalitzar les columnes de la vista de arxius.

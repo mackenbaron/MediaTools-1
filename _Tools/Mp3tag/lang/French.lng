@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE Enregistre le tag dans le fichier sélectionné.
 _C_MNU_SB_FILE_SAVECONFIG Sauvegarder les paramètres actuels dans un fichier de configuration.
 _C_MNU_SB_HELP_ABOUT Infos sur Mp3tag.
 _C_MNU_SB_HELP_CONTEXT Affiche l'aide sur les champs, menus et fenêtres cliqués.
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER Affiche la rubrique d'aide.
 _C_MNU_SB_HELP_FIRSTSTEPS Affiche une petite introduction à Mp3tag.
 _C_MNU_SB_HELP_KEYBOARD Affiche la liste des raccourcis claviers.
 _C_MNU_SB_HELP_SUPPORT Aller sur le forum Mp3tag.
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW Aller sur le site web de Mp3tag.
 _C_MNU_SB_UPDIR Atteint le répertoire parent.
 _C_MNU_SB_VIEW_COLUMNS Affiche une boîte de dialogue dans laquelle les colonnes de l'affichage des fichiers peuvent être configurées.

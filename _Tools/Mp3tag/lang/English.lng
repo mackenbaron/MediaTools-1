@@ -170,10 +170,12 @@ _C_MNU_SB_FILE_SAVE 儲存標籤到選擇的檔案。
 _C_MNU_SB_FILE_SAVECONFIG 儲存目前設定到一個組態檔案。
 _C_MNU_SB_HELP_ABOUT 關於 Mp3tag。
 _C_MNU_SB_HELP_CONTEXT 顯示點擊欄位、選單和視窗的上下文說明。
+_C_MNU_SB_HELP_DONATE Please consider donating to support Mp3tag's development.
 _C_MNU_SB_HELP_FINDER 說明目錄...
 _C_MNU_SB_HELP_FIRSTSTEPS 顯示 Mp3tag 的一個簡短操作。
 _C_MNU_SB_HELP_KEYBOARD 顯示鍵盤快捷鍵的清單。
 _C_MNU_SB_HELP_SUPPORT 前往 Mp3tag 論壇。
+_C_MNU_SB_HELP_UPGRADE Check for updates of Mp3tag
 _C_MNU_SB_HELP_WWW 前往 Mp3tag 網頁。
 _C_MNU_SB_UPDIR 變更到上層目錄
 _C_MNU_SB_VIEW_COLUMNS 當檔案檢視欄位可以自訂時顯示對話框。
