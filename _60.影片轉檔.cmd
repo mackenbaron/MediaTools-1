@@ -75,7 +75,8 @@ if /I %ExtName%==vob  goto mpg
 
 :mp4
 rem 此類別影片需轉換 video codec=libx264, audio codec=libvo_aacenc
-    %FF% -y -i "%~1" -c:v libx264 -q:v 0 -profile:v baseline -c:a aac -strict experimental -b:a 128k -async 1 -threads 3 "%out%\%~n1-converter.%ExtName%" -report
+	%FF% -y -i "%~1" -c:v libx264 -q:v 0 -profile:v baseline -aspect 16:9 -c:a aac -strict experimental -b:a 128k -async 1 -threads 3 "%out%\%~n1-converter.%ExtName%" -report
+    rem %FF% -y -i "%~1" -c:v libx264 -q:v 0 -profile:v baseline -c:a aac -strict experimental -b:a 128k -async 1 -threads 3 "%out%\%~n1-converter.%ExtName%" -report
 	rem %FF% -y -i "%~1" -c:v libx264 -q:v 0 -profile:v baseline -c:a libvo_aacenc -b:a 128k -async 1 -threads 3 "%out%\%~n1-converter.%ExtName%" -report
 	goto subExit
 
